@@ -13,6 +13,9 @@ De i-love-web pagina is een website waar ik mijn aantekeningen van de sprints ka
 ### Screenshot
 ![image](https://github.com/user-attachments/assets/374d5cec-6f9c-43a3-a748-340e3cd1eb6c)
 
+### Project bord
+[Projectbord](https://github.com/users/Remy2072/projects/7/views/1)
+
 ### Gebruik
 De website is erg overzichtelijk opgezet. Alle sprints zijn in één oogopslag zichtbaar. Wanneer je op een emoji in de navigatie klikt, ga je naar een andere pagina, maar het kaartjes-concept blijft hetzelfde. Klik je op een kaartje, dan word je doorgestuurd naar een detailpagina van dat kaartje.
 
