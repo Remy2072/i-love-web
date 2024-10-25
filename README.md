@@ -1,38 +1,26 @@
-# create-svelte
+# Titel
+I Love Web
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## Inhoudsopgave
+  * [Beschrijving](#beschrijving)
+  * [Gebruik](#gebruik)
+  * [Installatie](#installatie)
+  * [Licentie](#licentie)
 
-## Creating a project
+## Beschrijving
+De i-love-web pagina is een website waar ik mijn aantekeningen van de sprints kan bijhouden. Daarnaast vind je er mijn "we love web" notities en een overzicht van de projecten die ik heb gemaakt. Ook is er een "about me"-sectie, waarin ik meer over mezelf vertel.
 
-If you're seeing this, you've probably already done this step. Congrats!
+### Screenshot
+![image](https://github.com/user-attachments/assets/374d5cec-6f9c-43a3-a748-340e3cd1eb6c)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+### Gebruik
+De website is erg overzichtelijk opgezet. Alle sprints zijn in één oogopslag zichtbaar. Wanneer je op een emoji in de navigatie klikt, ga je naar een andere pagina, maar het kaartjes-concept blijft hetzelfde. Klik je op een kaartje, dan word je doorgestuurd naar een detailpagina van dat kaartje.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+### Live link
+[i-love-web](https://i-love-web-eta.vercel.app/)
 
-## Developing
+## Installatie
+Wanneer je het project hebt geforked en gekloond, kun je het openen in je editor. Open in je editor de terminal en installeer je het volgende: ```npm install``` Zodra je dat hebt gedaan kan je het porject opstarten met npm run dev.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Licentie
+This project is licensed under the terms of the [MIT license](./LICENSE).
