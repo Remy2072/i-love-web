@@ -19,6 +19,5 @@
 			stroke-linejoin="round"
 		/>
 	</svg>
-
-	<!-- {:else if name == ''} -->
+<!-- {:else if name == ''} -->
 {/if}
