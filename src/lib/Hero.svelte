@@ -5,7 +5,9 @@
 	</div>
 	<img src="/img/memoji.svg" alt="svg van zelfportret"/>
 </article>
-<div class="spotify"></div>
+<div class="spotify">
+	<h2>Spotify</h2>
+</div>
 
 <style>
 	.welcome {
@@ -50,6 +52,14 @@
 		border-radius: 1.25rem;
 		box-shadow: var(--box-shadow-hero);
 		width: 100%;
+	}
+
+	h2 {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #20D760;
+		height: 8.75rem;
 	}
 
 	@media (min-width: 600px) {
