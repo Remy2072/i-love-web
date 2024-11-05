@@ -99,6 +99,7 @@
 		height: 3px;
 		background-color: var(--pale-frost);
 		margin-top: 1.875rem;
+		margin: 1.875rem 0 1.25rem 0;
 		border-radius: 10px;
 		box-shadow: var(--box-shadow-line);
 	}
