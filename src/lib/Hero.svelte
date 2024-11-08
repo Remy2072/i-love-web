@@ -1,16 +1,13 @@
-<article class="welcome">
-	<div class="article-wrapper">
+<article>
+	<div>
 		<h1>Remy Duivesteijn</h1>
 		<p>Learning journal <span>·</span> FDND</p>
 	</div>
-	<img src="/img/memoji.svg" alt="svg van zelfportret"/>
+	<img src="/img/memoji.png" alt="svg van zelfportret"/>
 </article>
-<div class="spotify">
-	<h2>Spotify</h2>
-</div>
 
 <style>
-	.welcome {
+	article {
 		background: var(--gradient-hero);
 		box-shadow: var(--box-shadow-card);
 		border-radius: 1.25rem;
@@ -19,7 +16,7 @@
 		height: 8.75rem;
 	}
 
-	.article-wrapper {
+	div {
 		margin-top: 1.25rem;
 		margin-left: 1.563rem;
 	}
@@ -47,27 +44,12 @@
 		right: -1rem;
 	}
 
-	.spotify {
-		background-color: var(--pale-frost);
-		border-radius: 1.25rem;
-		box-shadow: var(--box-shadow-hero);
-		width: 100%;
-	}
-
-	h2 {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		color: #20D760;
-		height: 8.75rem;
-	}
-
 	@media (min-width: 600px) {
-		.welcome {
+		article {
 			height: 10rem;
 		}
 
-		.article-wrapper {
+		div {
 			margin-top: 1.875rem;
 			margin-left: 2.813rem;
 		}

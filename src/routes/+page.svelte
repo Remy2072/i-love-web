@@ -1,11 +1,13 @@
 <script>
 	import Hero from '$lib/Hero.svelte';
+	import Spotify from '$lib/Spotify.svelte';
 	import Card from '$lib/Card.svelte';
 </script>
 
 <header>
 	<section class="hero-wrapper">
 		<Hero />
+		<Spotify />
 	</section>
 </header>
 
