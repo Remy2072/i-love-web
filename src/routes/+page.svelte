@@ -1,7 +1,5 @@
 <script>
-	import Hero from '$lib/Hero.svelte';
-	import Spotify from '$lib/Spotify.svelte';
-	import Card from '$lib/Card.svelte';
+	import { Hero, Spotify, Card } from '$lib'
 </script>
 
 <header>
@@ -13,12 +11,13 @@
 
 <main>
 	<section class="card-wrapper">
+
 		<Card
 			sprintNumber={'Sprint 13'}
 			sprintName={'Tribe for Life'}
 			firstDay={'2 Sep.'}
 			lastDay={'20 Sep.'}
-			webLink={'/sprint13'}
+			webLink={'./sprints/sprint13'}
 			emoji={'🥷🏼'}
 		/>
 		<Card
@@ -26,7 +25,7 @@
 			sprintName={'Lose Your Head'}
 			firstDay={'23 Sep.'}
 			lastDay={'11 Okt.'}
-			webLink={'/sprint14'}
+			webLink={'./sprints/sprint14'}
 			emoji={'🤯'}
 		/>
 		<Card
@@ -34,7 +33,7 @@
 			sprintName={'Choices, Choices'}
 			firstDay={'14 Okt.'}
 			lastDay={'25 Okt.'}
-			webLink={'/sprint15'}
+			webLink={'./sprints/sprint15'}
 			emoji={'🎲'}
 		/>
 		<Card
@@ -42,7 +41,7 @@
 			sprintName={"Don't Repeat Yourself"}
 			firstDay={'11 Nov.'}
 			lastDay={'29 Nov.'}
-			webLink={'/sprint16'}
+			webLink={'./sprints/sprint16'}
 			emoji={'🎙️'}
 		/>
 
@@ -51,7 +50,7 @@
 			sprintName={'User Needs'}
 			firstDay={'02 Dec.'}
 			lastDay={'20 Dec.'}
-			webLink={'/sprint17'}
+			webLink={'./sprints/sprint17'}
 			emoji={'💁🏼‍♀️'}
 		/>
 
@@ -60,7 +59,7 @@
 			sprintName={'Release Candidate'}
 			firstDay={'06 Jan.'}
 			lastDay={'24 Jan.'}
-			webLink={'/sprint18'}
+			webLink={'./sprints/sprint18'}
 			emoji={'🍾'}
 		/>
 
@@ -69,7 +68,7 @@
 			sprintName={'Free Space'}
 			firstDay={'03 Feb.'}
 			lastDay={'11 Apr.'}
-			webLink={'/sprint19'}
+			webLink={'./sprints/sprint19'}
 			emoji={'🆓'}
 		/>
 
@@ -78,7 +77,7 @@
 			sprintName={'Final Sprint'}
 			firstDay={'14 Apr.'}
 			lastDay={'04 Jul.'}
-			webLink={'/sprint20'}
+			webLink={'./sprints/sprint20'}
 			emoji={'🏆'}
 		/>
 	</section>

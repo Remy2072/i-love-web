@@ -5,9 +5,10 @@
 		<span>Kendrick Lamar</span>
 	</div>
 	<div class="container-2">
-		<img class="img-1" src="/img/album.png" alt="" />
-		<img class="img-2" src="/img/record.png" alt="" />
+		<img class="img-1" src="/img/album.png" alt="">
+		<img  class="img-2" src="/img/record.png" alt="">
 	</div>
+
 </div>
 
 <style>
@@ -27,24 +28,28 @@
 		flex-direction: column;
 		height: 100%;
 		gap: 5px;
+
 	}
 
 	h2 {
 		font-size: 1rem;
 		font-weight: var(--font-weight-medium);
 		color: var(--dusty-lavender);
+
 	}
 
 	strong {
-		font-size: 1.25rem;
+		font-size: 1.5rem;
 		font-weight: var(--font-weight-semi-bold);
 		color: var(--slate-blue);
 		margin-top: auto;
+
 	}
 
 	span {
 		font-size: 14px;
 		color: var(--dusty-lavender);
+
 	}
 
 	.container-2 {
@@ -67,11 +72,5 @@
 		position: absolute;
 		width: 110px;
 		height: 110px;
-	}
-
-	@media (min-width: 930px) {
-		strong {
-			font-size: 1.5rem;
-		}
 	}
 </style>

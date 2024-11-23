@@ -52,9 +52,23 @@
     outline: none;
     appearance: none;
 	box-sizing: border-box;
+    text-decoration: none;
 	font-family: 'Outfit', sans-serif;
 }
 
 body {
 	background-color: var(--pale-frost);
+    color: var(--slate-blue);
+}
+
+h1 {
+    color: var(--black);
+}
+
+h2 {
+    color: var(--black);
+}
+
+h3 {
+    color: var(--black);
 }

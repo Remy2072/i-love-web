@@ -24,6 +24,7 @@
 	h1 {
 		font-size: 1.875rem;
 		max-width: 50%;
+		color: var(--black);
 	}
 
 	p {
