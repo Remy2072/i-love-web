@@ -39,12 +39,12 @@
 
 	<h2>Repositories</h2>
 	<ul>
-		<li><a href="#">Profile Card Repository</a></li>
-		<li><a href="#">Squad Page Repository</a></li>
+		<li><a href="https://github.com/Remy2072/your-tribe-for-life-profile-card">Profile Card Repository</a></li>
+		<li><a href="https://github.com/DamianR2004/your-tribe-for-life-squad-page">Squad Page Repository</a></li>
 	</ul>
 
 	<h2>Week 1 | 2 t/m 6 september</h2>
-	<p style="margin-top: 20px;">
+	<p style="margin-top: 1.25rem;">
 		In deze sprint zijn we begonnen met Svelte, een component-based framework, en Svelte Kit, een
 		app-framework dat server-side rendering (SSR) ondersteunt.
 	</p>
@@ -122,7 +122,7 @@
 	<h3>Figma workshop</h3>
 	<p>
 		In deze workshop kregen we de basis uitgelegd van Figma en enkele handige sneltoetsen om sneller
-		te werken. Voor meer shortcuts kun je deze <a href="https://www.figma.com/shortcuts">site</a> checken.
+		te werken. Voor meer shortcuts kun je deze <a href="https://help.figma.com/hc/en-us/articles/360040328653-Keyboard-shortcuts-in-Figma">site</a> checken.
 		Deze week heb ik me beziggehouden met mijn profielkaartje. Ik heb de basis setup geïnstalleerd en
 		een wireframe van de website gemaakt. We hadden afgesproken dat drie teamleden deze week aan hun
 		profielkaart zouden werken en de andere twee aan de squad page. Ik hielp mijn teamgenoten wanneer
@@ -134,7 +134,7 @@
 		Voor de API-koppeling maak je een <code>fetch-json.js</code> bestand in de lib-map en gebruik je
 		<code>+page.server.js</code>
 		om de data in te laden. Een voorbeeld van mijn profielkaart is te vinden op deze
-		<a href="https://example.com">link</a>.
+		<a href="https://profilecard-git-main-remys-projects-8b6e8689.vercel.app/">link</a>.
 	</p>
 
 	<h2>Week 3 | 16 t/m 20 september</h2>
@@ -181,15 +181,14 @@
 	</ul>
 	<p>
 		Bekijk de live versie van de squad page hier: <a
-			href="https://your-tribe-for-life-squad-page.com">Your Tribe for Life Squad Page</a
+			href="https://your-tribe-for-life-squad-page-nu.vercel.app/">Squad Page</a
 		>.
 	</p>
 </div>
 
 <style>
-
 	* {
-		font-size: 18px;
+		font-size: 1.125rem;
 		line-height: 1.5;
 	}
 
@@ -202,8 +201,8 @@
 	}
 
 	.emoji {
-		margin-top: 50px;
-		font-size: 60px;
+		margin-top: 3.125rem;
+		font-size: 3.75rem;
 	}
 
 	.title {
@@ -214,44 +213,70 @@
 	}
 
 	h1 {
-		font-size: 35px;
+		font-size: 2.188rem;
 	}
 
 	small {
 		margin-top: 10px;
-		font-size: 20px;
+		font-size: 1.25rem;
 		font-weight: 300;
 	}
 
 	h2 {
-		margin-top: 30px;
-		font-size: 25px;
+		margin-top: 1.875rem;
+		font-size: 1.563rem;
 	}
 
 	.inhoud {
-		margin-top: 75px;
+		margin-top: 4.688rem;
 	}
 
 	h3 {
-		margin-top: 20px;
-		font-size: 18px;
+		margin-top: 1.25rem;
+		font-size: 1.125rem;
 		color: var(--slate-blue);
 	}
 
 	ul {
 		list-style-type: disc;
-		padding-left: 20px;
+		padding-left: 1.25rem;
 	}
 	ul li {
 		margin-bottom: 0.5em;
 	}
 	ul li ul {
-		margin-left: 20px;
+		margin-left: 1.25rem;
 	}
 
 	a {
 		color: var(--tropical-cyan);
 		text-decoration: underline;
 		margin: 0;
+	}
+
+	@media (min-width: 600px) {
+		.container {
+			padding: 0 20%;
+		}
+	}
+
+	@media (min-width: 900px) {
+		.container {
+			padding: 0 30%;
+		}
+
+		h1 {
+			font-size: 3.125rem;
+		}
+
+		h2 {
+			font-size: 1.563rem;
+		}
+	}
+
+	@media (min-width: 1300px) {
+		.container {
+			padding: 0 35%;
+		}
 	}
 </style>
