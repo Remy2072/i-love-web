@@ -83,7 +83,7 @@
         <li>Installeer dependencies met <code>npm install</code>.</li>
         <li>Start het project met <code>npm run dev -- --open</code>.</li>
     </ul>
-    <h3>Svelte-project opzetten voor de squad Page</h3>
+    <h3>Svelte-project opzetten voor de squad page</h3>
     <p>
         Met behulp van de bovenstaande stappen heb ik een Svelte-project opgezet voor onze squad page.
         Ik heb de database van Directus gekoppeld via een fetch-json.js bestand in de lib-map, dat de
