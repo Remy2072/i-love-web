@@ -24,6 +24,12 @@
 		padding: 1.25rem;
 		position: relative;
 		margin-top: 1.563rem;
+		cursor: pointer;
+	}
+
+	article:hover {
+		transform: scale(1.02);
+		transition: 0.5s;
 	}
 
 	article::after {
@@ -71,5 +77,53 @@
 		align-items: center;
 		justify-content: space-between;
 		padding: 0 18px;
+		position: relative;
+	}
+
+	a:hover {
+		transition: background-color 0.3s ease;
+	}
+
+	@property --angle {
+		syntax: '<angle>';
+		initial-value: 0deg;
+		inherits: false;
+	}
+
+	a::before,
+	a::after {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-image: conic-gradient(from var(--angle), transparent 70%, var(--tropical-cyan));
+		top: 50%;
+		left: 50%;
+		translate: -50% -50%;
+		z-index: -1;
+		padding: 3px;
+		animation: none;
+		opacity: 0;
+		transition: opacity 0.3s ease;
+		border-radius: 7.5px;
+	}
+
+	a::before {
+		filter: blur(1.5rem);
+	}
+
+	a:hover::after,
+	a:hover::before {
+		animation: 3s spin linear infinite;
+		opacity: 1;
+	}
+
+	@keyframes spin {
+		from {
+			--angle: 0deg;
+		}
+		to {
+			--angle: 360deg;
+		}
 	}
 </style>

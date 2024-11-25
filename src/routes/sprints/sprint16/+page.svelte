@@ -246,7 +246,21 @@
 		margin-top: 3.125rem;
 		font-size: 3.75rem;
 		text-shadow: var(--box-shadow-emoji);
+        cursor: pointer;
 	}
+
+    .emoji:hover {
+        animation: 1s tilt-n-move-shaking linear infinite;
+    }
+
+    @keyframes tilt-n-move-shaking {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(5px, 5px) rotate(5deg); }
+  50% { transform: translate(0, 0) rotate(0eg); }
+  75% { transform: translate(-5px, 5px) rotate(-5deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+    }
+
 
 	.title {
 		display: flex;
