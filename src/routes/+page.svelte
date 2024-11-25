@@ -91,7 +91,7 @@
 		margin: 0 auto;
 		margin-top: 3.125rem;
 		grid-template-columns: 1fr;
-		gap: 1.25rem 0;
+		gap: 1.563rem 0;
 	}
 
 	.hero-wrapper::after {
