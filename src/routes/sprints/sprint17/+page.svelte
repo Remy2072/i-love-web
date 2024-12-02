@@ -4,6 +4,37 @@
         <h1>User Needs</h1>
         <small>Sprint 17</small>
     </div>
+	<h2 class="inhoud">Inhoudsopgave</h2>
+    <ul>
+        <li>Repositories</li>
+        <li>
+            Week 1
+            <ul>
+				<!-- <li></li> -->
+            </ul>
+        </li>
+        <li>
+            Week 2
+            <ul>
+				<!-- <li></li> -->
+            </ul>
+        </li>
+        <li>
+            Week 3
+            <ul>
+                <!-- <li></li> -->
+            </ul>
+        </li>
+    </ul>
+    <h2>Repositories</h2>
+    <ul>
+        <li><a href="https://github.com/Remy2072/user-needs">User Needs</a></li>
+        <li><a href="https://github.com/Remy2072/i-love-web">i-love-web</a></li>
+    </ul>
+    <h2>Week 1 | 02 t/m 06 december</h2>
+    <p style="margin-top: 1.25rem;">
+        Deze sprint richten we ons op creative coding. <strong>Coding Spike:</strong> Experimenteer met leuke, speelse code die niet per se functioneel hoeft te zijn.
+    </p>
 </div>
 
 <style>

@@ -29,12 +29,6 @@
                 <li>Responsive to the user</li>
             </ul>
         </li>
-        <li>
-            Week 3
-            <ul>
-                <li>States</li>
-            </ul>
-        </li>
     </ul>
     <h2>Repositories</h2>
     <ul>
@@ -201,8 +195,8 @@
             </ul>
         </li>
     </ul>
-    <!-- <h3>Svelte 5</h3>
-    <p>Runes, $props & Snippets</p> -->
+    <h3>Svelte 5</h3>
+    <p><strong>New features:</strong> Runes, $props & Snippets</p>
     <h3>Responsive to the user
     </h3>
     <p>Instellingen van een gebruiker. Zoals bijvoorbeeld darkmode en motion. De anatomie van een meadia query:
@@ -224,8 +218,6 @@
         <type of fold>
         ) te gebruiken.
     </p>
-    <h2>Week 3 | 25 t/m 29 november</h2>
-    <!-- <h3>States</h3> -->
 </div>
 
 <style>
