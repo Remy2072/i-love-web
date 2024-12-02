@@ -6,9 +6,9 @@
     </div>
     <h2 class="inhoud">Inhoudsopgave</h2>
     <ul>
-        <li>Repositories</li>
+        <li><strong>Repositories</strong></li>
         <li>
-            Week 1
+            <strong>Week 1</strong> 
             <ul>
                 <li>Presentatie Directus</li>
                 <li>Presentatie Triple</li>
@@ -18,7 +18,7 @@
             </ul>
         </li>
         <li>
-            Week 2
+            <strong>Week 2</strong>
             <ul>
                 <li>Schets je ontwikkeling</li>
                 <li>Mentor rol do’s and dont’s</li>
@@ -283,7 +283,7 @@
 	}
 
 	ul {
-		list-style-type: disc;
+		list-style-type: revert;
 		padding-left: 1.25rem;
 	}
 	ul li {

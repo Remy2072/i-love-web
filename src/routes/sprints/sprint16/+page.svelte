@@ -8,7 +8,7 @@
     <ul>
         <li>Repositories</li>
         <li>
-            Week 1
+            <strong>Week 1</strong>
             <ul>
                 <li>Component Library</li>
                 <li>RAP/PE-Websites</li>
@@ -293,7 +293,7 @@
 	}
 
 	ul {
-		list-style-type: disc;
+		list-style-type: revert;
 		padding-left: 1.25rem;
 	}
 	ul li {

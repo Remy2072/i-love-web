@@ -6,9 +6,9 @@
     </div>
     <h2 class="inhoud">Inhoudsopgave</h2>
     <ul>
-        <li>Repositories</li>
+        <li><strong>Repositories</strong></li>
         <li>
-            Week 1
+            <strong>Week 1</strong>
             <ul>
                 <li>Leervragen</li>
                 <li>Wat is Svelte en Svelte Kit</li>
@@ -19,14 +19,14 @@
             </ul>
         </li>
         <li>
-            Week 2
+            <strong>Week 2</strong>
             <ul>
                 <li>Figma workshop</li>
                 <li>API-koppeling</li>
             </ul>
         </li>
         <li>
-            Week 3
+            <strong>Week 3</strong>
             <ul>
                 <li>MoSCoW & Poker</li>
                 <li>Van epics naar user stories en taken</li>
@@ -234,7 +234,7 @@
 	}
 
 	ul {
-		list-style-type: disc;
+		list-style-type: revert;
 		padding-left: 1.25rem;
 	}
 	ul li {

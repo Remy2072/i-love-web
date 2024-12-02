@@ -78,7 +78,7 @@
 	}
 
 	ul {
-		list-style-type: disc;
+		list-style-type: revert;
 		padding-left: 1.25rem;
 	}
 	ul li {
