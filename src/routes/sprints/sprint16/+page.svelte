@@ -6,7 +6,7 @@
     </div>
     <h2 class="inhoud">Inhoudsopgave</h2>
     <ul>
-        <li>Repositories</li>
+        <li><strong>Repositories</strong></li>
         <li>
             <strong>Week 1</strong>
             <ul>
