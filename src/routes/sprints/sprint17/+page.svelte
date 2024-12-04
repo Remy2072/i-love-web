@@ -10,7 +10,8 @@
         <li>
             <strong>Week 1</strong>
             <ul>
-				<!-- <li></li> -->
+				<li>Compositie woordenlijst</li>
+				<li>Visuele hierarchie</li>
             </ul>
         </li>
         <li>
@@ -35,6 +36,34 @@
     <p style="margin-top: 1.25rem;">
         Deze sprint richten we ons op creative coding. <strong>Coding Spike:</strong> Experimenteer met leuke, speelse code die niet per se functioneel hoeft te zijn.
     </p>
+
+	<h3>Compositie woordenlijst</h3>
+	<ul>
+		<li>Flow</li>
+		<li>Visuele hiërarchie</li>
+		<li>Animatie</li>
+		<li>Visual weight</li>
+		<li>Visual direction</li>
+		<li>Dominance</li>
+		<li>Focal point</li>
+		<li>Composition</li>
+		<li>Reading patterns</li>
+		<li>Symmetrisch</li>
+		<li>Asymmetrisch</li>
+		<li>Radiaal</li>
+		<li>Mozaïek</li>
+		<li>Storytelling</li>
+		<li>Scrolly telling</li>
+	  </ul>
+
+	  <h3>Visuele hierarchie</h3>
+	  <ul>
+		<li>Grootte</li>
+		<li>Positie op scherm </li>
+		<li>Witruimte</li>
+		<li>Kleur en contrast</li>
+		<li>Animatie</li>
+	  </ul>
 </div>
 
 <style>
