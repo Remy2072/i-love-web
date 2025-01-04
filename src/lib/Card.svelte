@@ -6,13 +6,14 @@
 	export let firstDay = '';
 	export let lastDay = '';
 	export let webLink = '';
+	export let inputText = '';
 	export let emoji = '';
 </script>
 
 <article style="--bg-emoji: '{emoji}'">
 	<h2><small>{sprintNumber}</small>{sprintName}</h2>
-	<p><time datetime="2024-09-02">{firstDay}</time> t/m <time datetime="2024-09-20">{lastDay}</time></p>
-	<a href={webLink}>Naar documentatie<Svg name="arrow"/></a>
+	<p><time datetime="2024-09-02">{firstDay}</time><time datetime="2024-09-20">{lastDay}</time></p>
+	<a href={webLink}>{inputText}<Svg name="arrow"/></a>
 </article>
 
 <style>
@@ -112,8 +113,8 @@
 		filter: blur(1.5rem);
 	}
 
-	a:hover::after,
-	a:hover::before {
+	article:hover a::after,
+	article:hover a::before {
 		animation: 3s spin linear infinite;
 		opacity: 1;
 	}

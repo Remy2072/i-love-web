@@ -1,9 +1,17 @@
+<script>
+	export let subTitle = '';
+	export let dotColor = 'var(--tropical-cyan)';
+</script>
+
 <article>
 	<div>
 		<h1>Remy Duivesteijn</h1>
-		<p>Learning journal <span>·</span> FDND</p>
+		<p>
+			{subTitle}
+			<span style="color: {dotColor};">·</span> FDND
+		</p>
 	</div>
-	<img src="/img/memoji.png" alt="svg van zelfportret"/>
+	<img src="/img/memoji.png" alt="svg van zelfportret" />
 </article>
 
 <style>
@@ -31,10 +39,6 @@
 		margin-top: 5px;
 		font-weight: var(--font-weight-regular);
 		color: var(--dusty-lavender);
-	}
-
-	span {
-		color: var(--tropical-cyan);
 	}
 
 	img {

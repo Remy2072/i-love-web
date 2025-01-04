@@ -1,6 +1,6 @@
 <div class="container">
     <div class="title">
-        <p class="emoji">🥷🏻</p>
+        <p class="emoji">🛖</p>
         <h1>Your tribe for life</h1>
         <small>Sprint 13</small>
     </div>
