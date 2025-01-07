@@ -40,7 +40,7 @@
         <li><a href="https://github.com/Remy2072/your-tribe-for-life-profile-card">Profile Card Repository</a></li>
         <li><a href="https://github.com/DamianR2004/your-tribe-for-life-squad-page">Squad Page Repository</a></li>
     </ul>
-    <h2>Week 1 | 2 t/m 6 september</h2>
+    <h2>Week 1 | 2 t/m 6 September</h2>
     <p style="margin-top: 1.25rem;">
         In deze sprint zijn we begonnen met Svelte, een component-based framework, en Svelte Kit, een
         app-framework dat server-side rendering (SSR) ondersteunt.
@@ -107,7 +107,7 @@
             <code>+server.js</code>: Hierin kun je API-routes definiëren, zoals GET en POST-methodes.
         </li>
     </ul>
-    <h2>Week 2 | 9 t/m 13 september</h2>
+    <h2>Week 2 | 9 t/m 13 September</h2>
     <h3>Figma workshop</h3>
     <p>
         In deze workshop kregen we de basis uitgelegd van Figma en enkele handige sneltoetsen om sneller
@@ -124,7 +124,7 @@
         om de data in te laden. Een voorbeeld van mijn profielkaart is te vinden op deze
         <a href="https://profilecard-git-main-remys-projects-8b6e8689.vercel.app/">link</a>.
     </p>
-    <h2>Week 3 | 16 t/m 20 september</h2>
+    <h2>Week 3 | 16 t/m 20 September</h2>
     <h3>MoSCoW & Poker</h3>
     <p>
         Tijdens de les van maandag hebben we geleerd hoe je de moeilijkheid van een taak kunt inschatten

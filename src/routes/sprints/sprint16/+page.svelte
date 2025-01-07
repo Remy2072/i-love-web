@@ -39,7 +39,7 @@
         </li>
         <li><a href="https://github.com/Remy2072/i-love-web">i-love-web</a></li>
     </ul>
-    <h2>Week 1 | 11 t/m 15 november</h2>
+    <h2>Week 1 | 11 t/m 15 November</h2>
     <p style="margin-top: 1.25rem;">
         Tijdens deze eerste week ligt de focus op het opzetten van een solide basis voor het project
         door structuur en consistentie aan te brengen in de code en ontwerpbenadering. Hierbij worden
@@ -121,7 +121,7 @@
     <ul>
         <li>Volgorde van betekenisvolle getallen (bijv. de gulden snede: vermenigvuldigen/delen door 1,618).</li>
     </ul>
-    <h2>Week 2 | 18 t/m 22 november</h2>
+    <h2>Week 2 | 18 t/m 22 November</h2>
     <h3>Mentor dag week 4</h3>
     <p>De studenten kregen de opdracht om hun eigen font te maken en te importeren in hun website. Ik heb sebastiaan geholpen om het font te importeren in zijn code met gebruik van fontface
         daarna had hij wat vragen over mijn folder structuur en heb ik mijn structuur hem aangeleerd. Daarnaast keken Mikiyas en een andere student ook mee en hebben zij er ook wat van geleerd.

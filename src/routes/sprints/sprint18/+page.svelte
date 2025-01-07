@@ -1,9 +1,113 @@
 <div class="container">
-    <div class="title">
-        <p class="emoji">🍾</p>
-        <h1>Release Candidate</h1>
-        <small>Sprint 18</small>
-    </div>
+	<div class="title">
+		<p class="emoji">🍾</p>
+		<h1>Release Candidate</h1>
+		<small>Sprint 18</small>
+	</div>
+
+	<h2 class="inhoud">Inhoudsopgave</h2>
+	<ul>
+		<li><strong>Repositories</strong></li>
+		<li>
+			<strong>Week 1</strong>
+			<ul>
+				<li>Software Release Life Cycle (SRLC)</li>
+				<li>Geen TLA's meer!</li>
+			</ul>
+		</li>
+		<li><strong>Bronnen</strong></li>
+	</ul>
+	<h2>Repositories</h2>
+	<ul>
+		<li><a href="https://github.com/Remy2072/release-candidate">Release Candidate</a></li>
+		<li><a href="https://github.com/Remy2072/i-love-web">i-love-web</a></li>
+	</ul>
+
+	<h2>Week 1 | 06 t/m 10 Januari</h2>
+	<p style="margin-top: 1.25rem;">
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, quidem.
+	</p>
+
+	<h3>Software Release Life Cycle (SRLC)</h3>
+	<p>
+		De Software Release Life Cycle beschrijft het proces van het ontwikkelen, testen en distribueren
+		van software. Dit proces bestaat doorgaans uit de volgende fases:
+	</p>
+	<ul style="margin-top: 1.25rem;">
+		<li>
+			<strong>Pre-alpha:</strong>
+			In deze fase wordt de software ontworpen en gebouwd. Dit is een vroege ontwikkelingsfase waarin
+			nog geen uitgebreide tests worden uitgevoerd.
+		</li>
+
+		<li>
+			<strong>Alpha:</strong>
+			De eerste fase van formele tests. Hier wordt de software intern getest binnen de organisatie. Het
+			doel is om initiële fouten op te sporen.
+		</li>
+
+		<li>
+			<strong>Beta:</strong>
+			Een grotere gebruikersgroep buiten de organisatie test de software. De focus ligt op het verzamelen
+			van gebruikersfeedback en het minimaliseren van gebruiksproblemen.
+		</li>
+
+		<li>
+			<strong>Release Candidate (RC):</strong>
+			Ook wel "gamma testing" of "going silver" genoemd. Dit is een versie die bijna klaar is voor release,
+			tenzij ernstige bugs worden ontdekt. Alle functies zijn geïmplementeerd en getest.
+		</li>
+
+		<li>
+			<strong>Final Release ("Gold"):</strong>
+			De uiteindelijke versie van de software die publiek beschikbaar wordt gemaakt.
+		</li>
+	</ul>
+
+	<h3>Code-Complete:</h3>
+	<p>
+		Wanneer een release als code-complete wordt beschouwd, betekent dit dat er geen nieuwe broncode
+		meer wordt toegevoegd. Er kunnen nog wel bugfixes en updates voor documentatie worden
+		doorgevoerd.
+	</p>
+
+	<h3>Geen TLA's meer!</h3>
+	<p>Hieronder een overzicht van enkele belangrijke termen:</p>
+	<ul style="margin-top: 1.25rem;">
+		<li>
+			<strong>CSR (Client-Side Rendering):</strong> De browser laadt een leeg HTML-bestand en gebruikt
+			JavaScript (JS) en CSS om verbinding te maken met de backend. Daarna wordt de pagina gerenderd.
+		</li>
+		<li>
+			<strong>SSR (Server-Side Rendering):</strong> Bij elke aanvraag wordt de HTML op de server gerenderd
+			en als complete pagina naar de browser gestuurd.
+		</li>
+		<li>
+			<strong>SSG (Static Site Generation):</strong> Tijdens het buildproces worden alle mogelijke pagina's
+			vooraf gerenderd. Het resultaat is een statische website die eenvoudig te hosten is.
+		</li>
+		<li>
+			<strong>ISR (Incremental Static Regeneration):</strong> Een variant van SSG waarbij de build periodiek
+			wordt uitgevoerd. Alleen pagina's met gewijzigde content worden opnieuw gerenderd.
+		</li>
+		<li>
+			<strong>CDN (Content Delivery Network):</strong> Een netwerk van servers die statische bestanden
+			snel en efficiënt naar gebruikers verspreiden.
+		</li>
+		<li>
+			<strong>CI (Continuous Integration):</strong> Een ontwikkelpraktijk waarbij codewijzigingen automatisch
+			worden getest en geïntegreerd in de hoofdcodebase.
+		</li>
+	</ul>
+
+	<h3>Bronnen</h3>
+	<ul>
+		<li>
+			<a href="https://en.wikipedia.org/wiki/Software_release_life_cycle"
+				>Software release life cycle
+			</a>
+		</li>
+	</ul>
 </div>
 
 <style>
@@ -24,21 +128,30 @@
 		margin-top: 3.125rem;
 		font-size: 3.75rem;
 		text-shadow: var(--box-shadow-emoji);
-        cursor: pointer;
+		cursor: pointer;
 	}
 
-    .emoji:hover {
-        animation: 1s tilt-n-move-shaking linear infinite;
-    }
+	.emoji:hover {
+		animation: 1s tilt-n-move-shaking linear infinite;
+	}
 
-    @keyframes tilt-n-move-shaking {
-  0% { transform: translate(0, 0) rotate(0deg); }
-  25% { transform: translate(5px, 5px) rotate(5deg); }
-  50% { transform: translate(0, 0) rotate(0eg); }
-  75% { transform: translate(-5px, 5px) rotate(-5deg); }
-  100% { transform: translate(0, 0) rotate(0deg); }
-    }
-
+	@keyframes tilt-n-move-shaking {
+		0% {
+			transform: translate(0, 0) rotate(0deg);
+		}
+		25% {
+			transform: translate(5px, 5px) rotate(5deg);
+		}
+		50% {
+			transform: translate(0, 0) rotate(0eg);
+		}
+		75% {
+			transform: translate(-5px, 5px) rotate(-5deg);
+		}
+		100% {
+			transform: translate(0, 0) rotate(0deg);
+		}
+	}
 
 	.title {
 		display: flex;
