@@ -13,6 +13,7 @@
 			<ul>
 				<li>Software Release Life Cycle (SRLC)</li>
 				<li>Geen TLA's meer!</li>
+				<li>GSAB</li>
 			</ul>
 		</li>
 		<li><strong>Bronnen</strong></li>
@@ -100,12 +101,73 @@
 		</li>
 	</ul>
 
-	<h3>Bronnen</h3>
+	<h3>GSAP</h3>
+	<p>
+		GSAP is een krachtige en flexibele JavaScript-bibliotheek die speciaal is ontworpen voor het
+		maken van animaties op het web. Het wordt beschouwd als een industriestandaard voor webanimaties
+		vanwege de hoge prestaties en veelzijdigheid.
+	</p>
+
+	<h3>Belangrijkste kenmerken van GSAP:</h3>
 	<ul>
 		<li>
-			<a href="https://en.wikipedia.org/wiki/Software_release_life_cycle"
-				>Software release life cycle
-			</a>
+			<strong>Hoge performance:</strong> GSAP biedt vloeiende animaties, zelfs op apparaten met lagere
+			specificaties, en is geoptimaliseerd voor moderne browsers.
+		</li>
+		<li>
+			<strong>Efficiënt gebruik van CSS:</strong> Waar mogelijk maakt GSAP gebruik van CSS-transformaties
+			(zoals transform en opacity) om animaties efficiënter te maken.
+		</li>
+		<li>
+			<strong>JavaScript voor meer controle:</strong> Wanneer iets niet mogelijk is met CSS alleen, schakelt
+			GSAP over op JavaScript voor precieze controle en complexere animaties.
+		</li>
+		<li>
+			<strong>Geoptimaliseerde prestaties:</strong> Alle animaties zijn uiterst geoptimaliseerd om soepel
+			te werken, ongeacht de complexiteit van de animatie.
+		</li>
+	</ul>
+
+	<h3>Waarom GSAB?</h3>
+	<ul>
+		<li>
+			<strong>Hoge performance:</strong> GSAP biedt vloeiende animaties, zelfs op apparaten met lagere
+			specificaties, en is geoptimaliseerd voor moderne browsers.
+		</li>
+		<li>
+			<strong>Efficiënt gebruik van CSS:</strong> Waar mogelijk maakt GSAP gebruik van CSS-transformaties
+			(zoals transform en opacity) om animaties efficiënter te maken.
+		</li>
+		<li>
+			<strong>JavaScript voor meer controle:</strong> Wanneer iets niet mogelijk is met CSS alleen, schakelt
+			GSAP over op JavaScript voor precieze controle en complexere animaties.
+		</li>
+		<li>
+			<strong>Geoptimaliseerde prestaties:</strong> Alle animaties zijn uiterst geoptimaliseerd om soepel
+			te werken, ongeacht de complexiteit van de animatie.
+		</li>
+		<li>
+			<strong>Breed scala aan animaties:</strong> Het ondersteunt een breed scala aan animaties, van
+			eenvoudige bewegingen tot geavanceerde tijdlijnen.
+		</li>
+		<li>
+			<strong>Gemakkelijke integratie:</strong> Het kan gemakkelijk geïntegreerd worden met frameworks
+			zoals React, Vue en Angular.
+		</li>
+		<li>
+			<strong>Actieve community en documentatie:</strong> GSAP heeft een actieve community
+
+			<h3>Bronnen</h3>
+			<ul>
+				<li>
+					<a href="https://en.wikipedia.org/wiki/Software_release_life_cycle"
+						>Software release life cycle
+					</a>
+				</li>
+				<li>
+					<a href="https://gsap.com">GSAB</a>
+				</li>
+			</ul>
 		</li>
 	</ul>
 </div>
