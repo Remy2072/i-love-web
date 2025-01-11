@@ -24,7 +24,7 @@
 		<li><a href="https://github.com/Remy2072/i-love-web">i-love-web</a></li>
 	</ul>
 
-	<h2>Week 1 | 06 t/m 10 Januari</h2>
+	<h2>Week 1 | 06 t/m 10 januari</h2>
 	<p style="margin-top: 1.25rem;">
 		Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, quidem.
 	</p>

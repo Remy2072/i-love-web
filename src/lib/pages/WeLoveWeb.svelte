@@ -45,16 +45,16 @@
 		/>
 		<Card
 			sprintNumber={'We 💚 Web | Sprint 17'}
-			sprintName={'..'}
-			firstDay={'2024'}
+			sprintName={'Justus Sturkenboom'}
+			firstDay={'13 Dec. 2024'}
 			webLink={''}
 			inputText={'Naar documentatie'}
 			emoji={'💚'}
 		/>
 		<Card
 			sprintNumber={'We 🩵 Web | Sprint 18'}
-			sprintName={'...'}
-			firstDay={'2025'}
+			sprintName={'Dave Bitter'}
+			firstDay={'17 Jan. 2025'}
 			webLink={''}
 			inputText={'Naar documentatie'}
 			emoji={'🩵'}

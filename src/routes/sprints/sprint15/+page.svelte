@@ -31,7 +31,7 @@
         <li><a href="https://github.com/Remy2072/choices-choices-the-tech-stack">Choices-choices-the-tech-stack</a></li>
         <li><a href="https://github.com/Remy2072/i-love-web">i-love-web</a></li>
     </ul>
-    <h2>Week 1 | 14 t/m 18 Oktober</h2>
+    <h2>Week 1 | 14 t/m 18 oktober</h2>
     <p style="margin-top: 1.25rem;">
         In deze sprint werken we met een framework naar keuze. We hebben de taak gekregen om een nieuwe tech-stack te selecteren en onze keuze te onderbouwen met duidelijke argumenten.
     </p>
@@ -177,7 +177,7 @@
         <li>Feedback op Anouar</li>
         <li>Feedback op Kerem</li>
     </ul>
-    <h2>Week 2 | 21 t/m 25 Oktober</h2>
+    <h2>Week 2 | 21 t/m 25 oktober</h2>
     <h3>Schets je ontwikkeling</h3>
     <p>Agelopen maandag hebben we 3 teken opdrachten gemaakt. In de eerste opdracht moest je een skill tree maken en tekenen hoe ver jij bent met de dlc, daarna moesten wij een tekening maken met de vraag waar ben ik over een jaar, wat kan ik, wat doe ik, wat denk ik en wat zeg ik. En als laatst moesten ik een tijdlijn maken met mijn tools en skills, houding en soft skills. Daarna ging ik dit vergelijken met een van mijn klas genoten en vroeg ik feedback wat hij ervan vond.</p>
     <h3>Mentor rol do’s and dont’s</h3>

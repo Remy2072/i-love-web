@@ -39,7 +39,7 @@
         <li><a href="https://github.com/Remy2072/fdnd">FDND We Love Web</a></li>
         <li><a href="https://github.com/Remy2072/i-love-web">i-love-web</a></li>
     </ul>
-    <h2>Week 1 | 23 t/m 27 September</h2>
+    <h2>Week 1 | 23 t/m 27 september</h2>
     <p style="margin-top: 1.25rem;">
         In deze sprint zijn we begonnen met Svelte, een component-based framework, en Svelte Kit, een
         app-framework dat server-side rendering (SSR) ondersteunt.
@@ -48,7 +48,7 @@
     <p>
         Deze week kregen we een nieuwe opdracht van FDND: het ontwikkelen van een "We Love Web" website. Deze website geeft een overzicht van zowel aankomende als afgelopen We Love Web-sessies, bedoeld voor studenten en docenten. Samen met Jaymar ben ik aan deze opdracht begonnen. We startten met het opzetten van de basis van de site door een sitemap, datamodel en teamcanvas te maken. Dit is allemaal vastgelegd in ons projectboard, dat te vinden is via de volgende link: Project Board FDND We Love Web
     </p>
-    <h2>Week 2 | 30 September t/m 4 Oktober</h2>
+    <h2>Week 2 | 30 September t/m 4 oktober</h2>
     <h3>Mentor dag week 1</h3>
     <p>Tijdens deze week kregen de eerstejaars een college over het grid-systeem. In groepjes werkten ze aan verschillende lay-outs, waarbij ik mijn groepje hielp wanneer ze vastliepen.
     </p>
@@ -100,7 +100,7 @@
     </ul>
     <h3>Error page  </h3>
     <p>Op basis van Justus' presentatie heb ik een error-pagina gemaakt die gebruik maakt van `$page.status` om de foutstatus weer te geven:</p>
-    <h2>Week 3 | 7 t/m 11 Oktober</h2>
+    <h2>Week 3 | 7 t/m 11 oktober</h2>
     <h3>Waterval vs Agile </h3>
     <ul>
         <li>Waterval: Hierbij worden alle specificaties van tevoren vastgelegd. </li>

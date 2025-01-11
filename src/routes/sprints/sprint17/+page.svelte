@@ -31,7 +31,7 @@
 		<li><a href="https://github.com/Remy2072/user-needs">User Needs</a></li>
 		<li><a href="https://github.com/Remy2072/i-love-web">i-love-web</a></li>
 	</ul>
-	<h2>Week 1 | 02 t/m 06 December</h2>
+	<h2>Week 1 | 02 t/m 06 december</h2>
 	<p style="margin-top: 1.25rem;">
 		Deze sprint richten we ons op creative coding. <strong>Coding Spike:</strong> Experimenteer met leuke,
 		speelse code die niet per se functioneel hoeft te zijn.
@@ -65,7 +65,7 @@
 		<li>Animatie</li>
 	</ul>
 
-	<h2>Week 2 | 09 t/m 13 December</h2>
+	<h2>Week 2 | 09 t/m 13 december</h2>
 
 	<h3>View transitions</h3>
 	<p>
