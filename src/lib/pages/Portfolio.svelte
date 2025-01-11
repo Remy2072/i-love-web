@@ -54,7 +54,7 @@
 		webLink={''}
 		inputText={'Naar project'}
 		emoji={'♻️'}
-	/>
+	/> 
 	</section>
 </main>
 

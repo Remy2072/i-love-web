@@ -12,6 +12,7 @@
     --gradient-hero: linear-gradient(225deg, rgba(221,249,255,1) 0%, rgba(255,255,255,1) 100%);
     --gradient-card: linear-gradient(180deg, rgba(255,255,255,0.85) 0%, rgba(237,241,242,1) 100%);
     --gradient-button: linear-gradient(45deg, rgba(221,249,255,1) 0%, rgba(255,255,255,1) 100%);
+    --gradient-nav: linear-gradient(70deg, rgba(255, 255, 255, 1) 0%, rgba(240, 243, 243, 1) 100%);
 
 	--font-weight-regular: 400;
 	--font-weight-medium: 500;

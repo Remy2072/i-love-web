@@ -1,3 +1,7 @@
+<script>
+    	import { Nav } from '$lib';
+</script>
+
 <div class="container">
     <div class="title">
         <p class="emoji">🛖</p>
@@ -167,6 +171,7 @@
             >.
     </p>
 </div>
+<Nav />
 
 <style>
 	* {
@@ -180,6 +185,7 @@
 		flex-direction: column;
 		justify-content: center;
 		padding: 0 10%;
+        margin-bottom: 200px;
 	}
 
 	.emoji {
