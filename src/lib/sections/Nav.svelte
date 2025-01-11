@@ -36,7 +36,7 @@
 <header>
 	<nav>
 		<ul>
-			{#each ['sprints', 'weloveweb', 'portfolio', 'overmij'] as page, i}
+			{#each ['sprints', 'we ♥ web', 'portfolio', 'overmij'] as page, i}
 				<li>
 					<a
 						href="/"
@@ -87,11 +87,17 @@
 	header nav {
 		width: fit-content;
 		margin: 0 auto;
-		height: 80px;
+		height: 65px;
 		border-radius: 20px;
 		position: relative;
 		background-color: var(--pale-frost);
 		box-shadow: var(--box-shadow-hero);
+	}
+
+	@media (min-width: 485px) {
+		header nav {
+			height: 80px;
+	}
 	}
 
 	header nav div {
@@ -122,13 +128,21 @@
 	header nav ul li a {
 		display: flex;
 		flex-direction: column;
-		padding: 20px;
 		text-decoration: none;
 		color: #a0a0ae;
 		font-weight: 500;
 		cursor: pointer;
 		position: relative;
 		outline: none;
+		padding: 11px;
+		font-size: 14px;
+	}
+
+	@media (min-width: 485px) {
+		header nav ul li a {
+			padding: 20px;
+			font-size: 1rem;
+	}
 	}
 
 	header nav ul li a.active {
@@ -142,7 +156,7 @@
 
 
 	span {
-		font-size: 45px;
+		font-size: 35px;
 		position: absolute;
 		left: 50%;
 		top: 0;
@@ -150,6 +164,15 @@
 		pointer-events: none;
 		transition: 500ms ease;
 	}
+
+	@media (min-width: 485px) {
+		span {
+			font-size: 45px;
+			transform: translateX(-50%) translateY(-40px);
+	}
+	}
+
+	
 
 	header nav ul li a.active span {
 		transform: translateX(-50%) translateY(-45px) scale(1.15);

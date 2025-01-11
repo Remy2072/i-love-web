@@ -15,7 +15,7 @@
 <main>
 	{#if activePage === 'sprints'}
 		<Page1 />
-	{:else if activePage === 'weloveweb'}
+	{:else if activePage === 'we ♥ web'}
 		<Page2 />
 	{:else if activePage === 'portfolio'}
 		<Page3 />
