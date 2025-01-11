@@ -48,13 +48,13 @@
 		/>
 
 		<Card
-		sprintNumber={'Mediacollege'}
-		sprintName={'Ecosy'}
-		firstDay={'2022'}
-		webLink={''}
-		inputText={'Naar project'}
-		emoji={'♻️'}
-	/> 
+			sprintNumber={'Mediacollege'}
+			sprintName={'Ecosy'}
+			firstDay={'2022'}
+			webLink={''}
+			inputText={'Naar project'}
+			emoji={'♻️'}
+		/>
 	</section>
 </main>
 

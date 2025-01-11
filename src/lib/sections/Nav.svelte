@@ -64,7 +64,7 @@
 		position: fixed;
 		bottom: 0;
 		width: 100%;
-		padding-bottom: 20px;
+		padding-bottom: 1.25rem;
 		z-index: 2;
 	}
 
@@ -74,7 +74,7 @@
 		left: 0;
 		bottom: 0;
 		right: 0;
-		height: 200px;
+		height: 12.5rem;
 		background: linear-gradient(
 			180deg,
 			rgba(240, 243, 243, 0) 0%,
@@ -87,8 +87,8 @@
 	header nav {
 		width: fit-content;
 		margin: 0 auto;
-		height: 65px;
-		border-radius: 20px;
+		height: 4.063rem;
+		border-radius: 1.25rem;
 		position: relative;
 		background-color: var(--pale-frost);
 		box-shadow: var(--box-shadow-hero);
@@ -96,13 +96,13 @@
 
 	@media (min-width: 485px) {
 		header nav {
-			height: 80px;
-	}
+			height: 5rem;
+		}
 	}
 
 	header nav div {
 		position: absolute;
-		height: calc(100% - 18px);
+		height: calc(100% - 1.125rem);
 		background: linear-gradient(-45deg, rgba(255, 255, 255, 1) 0%, rgba(240, 243, 243, 1) 100%);
 		box-shadow: var(--box-shadow-button);
 		bottom: 9px;
@@ -140,9 +140,9 @@
 
 	@media (min-width: 485px) {
 		header nav ul li a {
-			padding: 20px;
+			padding: 1.25rem;
 			font-size: 1rem;
-	}
+		}
 	}
 
 	header nav ul li a.active {
@@ -154,27 +154,23 @@
 		outline-offset: 4px;
 	}
 
-
 	span {
-		font-size: 35px;
+		font-size: 2.188rem;
 		position: absolute;
 		left: 50%;
 		top: 0;
-		transform: translateX(-50%) translateY(-40px);
+		transform: translateX(-50%) translateY(-2.5rem);
 		pointer-events: none;
 		transition: 500ms ease;
 	}
 
 	@media (min-width: 485px) {
 		span {
-			font-size: 45px;
-			transform: translateX(-50%) translateY(-40px);
+			font-size: 2.813rem;
+		}
 	}
-	}
-
-	
 
 	header nav ul li a.active span {
-		transform: translateX(-50%) translateY(-45px) scale(1.15);
+		transform: translateX(-50%) translateY(-2.813rem) scale(1.15);
 	}
 </style>
