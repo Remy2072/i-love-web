@@ -1,8 +1,5 @@
 <script>
-	import Nav from '$lib/sections/Nav.svelte';
-	import Sprints from '$lib/pages/Sprints.svelte';
-	import WeloveWeb from '$lib/pages/WeloveWeb.svelte';
-	import Portfolio from '$lib/pages/Portfolio.svelte';
+	import { Nav, Page1, Page2, Page3 } from '$lib';
 
 	let activePage = 'sprints';
 
@@ -17,11 +14,11 @@
 
 <main>
 	{#if activePage === 'sprints'}
-		<Sprints />
+		<Page1 />
 	{:else if activePage === 'weloveweb'}
-		<WeloveWeb />
+		<Page2 />
 	{:else if activePage === 'portfolio'}
-		<Portfolio />
+		<Page3 />
 	{/if}
 </main>
 
