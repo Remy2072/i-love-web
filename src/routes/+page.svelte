@@ -27,6 +27,6 @@
 
 <style>
 	main {
-		padding-bottom: 150px; /* Ruimte voor de navigatie */
+		padding-bottom: 150px;
 	}
 </style>

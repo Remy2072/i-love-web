@@ -10,11 +10,13 @@
 	export let emoji = '';
 </script>
 
-<article style="--bg-emoji: '{emoji}'">
-	<h2><small>{sprintNumber}</small>{sprintName}</h2>
-	<p><time datetime="2024-09-02">{firstDay}</time><time datetime="2024-09-20">{lastDay}</time></p>
-	<a href={webLink}>{inputText}<Svg name="arrow"/></a>
-</article>
+
+	<article style="--bg-emoji: '{emoji}'">
+		<h2><small>{sprintNumber}</small>{sprintName}</h2>
+		<p><time datetime="2024-09-02">{firstDay}</time><time datetime="2024-09-20">{lastDay}</time></p>
+		<a href={webLink}>{inputText}<Svg name="arrow" /></a>
+	</article>
+
 
 <style>
 	article {

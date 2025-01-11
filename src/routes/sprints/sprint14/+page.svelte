@@ -174,6 +174,7 @@
 		flex-direction: column;
 		justify-content: center;
 		padding: 0 10%;
+        margin-bottom: 200px;
 	}
 
 	.emoji {

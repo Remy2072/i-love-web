@@ -1,7 +1,3 @@
-<script>
-    	import { Nav } from '$lib';
-</script>
-
 <div class="container">
     <div class="title">
         <p class="emoji">🛖</p>
@@ -171,7 +167,6 @@
             >.
     </p>
 </div>
-<Nav />
 
 <style>
 	* {

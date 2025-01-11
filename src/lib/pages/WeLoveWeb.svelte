@@ -15,7 +15,7 @@
 			sprintNumber={'We 🩷 Web | Sprint 13'}
 			sprintName={'Vasilis van Gemert'}
 			firstDay={'13 Sep. 2024'}
-			webLink={''}
+			webLink={'/colleges/wlw1'}
 			inputText={'Naar documentatie'}
 			emoji={'🩷'}
 		/>
@@ -43,7 +43,6 @@
 			inputText={'Naar documentatie'}
 			emoji={'💛'}
 		/>
-
 		<Card
 			sprintNumber={'We 💚 Web | Sprint 17'}
 			sprintName={'..'}
@@ -52,7 +51,6 @@
 			inputText={'Naar documentatie'}
 			emoji={'💚'}
 		/>
-
 		<Card
 			sprintNumber={'We 🩵 Web | Sprint 18'}
 			sprintName={'...'}
@@ -61,7 +59,6 @@
 			inputText={'Naar documentatie'}
 			emoji={'🩵'}
 		/>
-
 		<Card
 			sprintNumber={'We 💙 Web | Sprint 19'}
 			sprintName={'...'}
@@ -70,7 +67,6 @@
 			inputText={'Naar documentatie'}
 			emoji={'💙'}
 		/>
-
 		<Card
 			sprintNumber={'We 💜 Web | Sprint 19'}
 			sprintName={'...'}
@@ -79,7 +75,6 @@
 			inputText={'Naar documentatie'}
 			emoji={'💜'}
 		/>
-
 		<Card
 			sprintNumber={'We 🤎 Web | Sprint 19'}
 			sprintName={'...'}
@@ -88,7 +83,6 @@
 			inputText={'Naar documentatie'}
 			emoji={'🤎'}
 		/>
-
 		<Card
 			sprintNumber={'We 🖤 Web | Sprint 20'}
 			sprintName={'...'}
@@ -97,7 +91,6 @@
 			inputText={'Naar documentatie'}
 			emoji={'🖤'}
 		/>
-
 		<Card
 			sprintNumber={'We 🩶 Web | Sprint 20'}
 			sprintName={'...'}
@@ -106,7 +99,6 @@
 			inputText={'Naar documentatie'}
 			emoji={'🩶'}
 		/>
-
 		<Card
 			sprintNumber={'We 🤍 Web | Sprint 20'}
 			sprintName={'...'}

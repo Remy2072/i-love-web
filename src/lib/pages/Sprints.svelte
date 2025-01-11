@@ -1,12 +1,11 @@
 <script>
 	import { Hero, Spotify, Card } from '$lib';
 
-	// Alle sprints verwerkt in een array
 	const sprints = [
 		{
 			number: 'Sprint 13',
 			name: 'Tribe for Life',
-			firstDay: '2 Sep.',
+			firstDay: '2 Sep. t/m ',
 			lastDay: '20 Sep.',
 			webLink: './sprints/sprint13',
 			inputText: 'Naar documentatie',
@@ -15,7 +14,7 @@
 		{
 			number: 'Sprint 14',
 			name: 'Lose Your Head',
-			firstDay: '23 Sep.',
+			firstDay: '23 Sep. t/m ',
 			lastDay: '11 Okt.',
 			webLink: './sprints/sprint14',
 			inputText: 'Naar documentatie',
@@ -24,7 +23,7 @@
 		{
 			number: 'Sprint 15',
 			name: 'Choices, Choices',
-			firstDay: '14 Okt.',
+			firstDay: '14 Okt. t/m ',
 			lastDay: '25 Okt.',
 			webLink: './sprints/sprint15',
 			inputText: 'Naar documentatie',
@@ -33,7 +32,7 @@
 		{
 			number: 'Sprint 16',
 			name: "Don't Repeat Yourself",
-			firstDay: '11 Nov.',
+			firstDay: '11 Nov. t/m ',
 			lastDay: '29 Nov.',
 			webLink: './sprints/sprint16',
 			inputText: 'Naar documentatie',
@@ -42,7 +41,7 @@
 		{
 			number: 'Sprint 17',
 			name: 'User Needs',
-			firstDay: '02 Dec.',
+			firstDay: '02 Dec. t/m ',
 			lastDay: '20 Dec.',
 			webLink: './sprints/sprint17',
 			inputText: 'Naar documentatie',
@@ -51,7 +50,7 @@
 		{
 			number: 'Sprint 18',
 			name: 'Release Candidate',
-			firstDay: '06 Jan.',
+			firstDay: '06 Jan. t/m ',
 			lastDay: '24 Jan.',
 			webLink: './sprints/sprint18',
 			inputText: 'Naar documentatie',
@@ -60,7 +59,7 @@
 		{
 			number: 'Sprint 19',
 			name: 'Free Space',
-			firstDay: '03 Feb.',
+			firstDay: '03 Feb. t/m ',
 			lastDay: '11 Apr.',
 			webLink: './sprints/sprint19',
 			inputText: 'Naar documentatie',
@@ -69,7 +68,7 @@
 		{
 			number: 'Sprint 20',
 			name: 'Final Sprint',
-			firstDay: '14 Apr.',
+			firstDay: '14 Apr t/m ',
 			lastDay: '04 Jul.',
 			webLink: './sprints/sprint20',
 			inputText: 'Naar documentatie',
