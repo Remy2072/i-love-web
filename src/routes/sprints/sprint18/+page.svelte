@@ -16,6 +16,13 @@
 				<li>GSAB</li>
 			</ul>
 		</li>
+		<li>
+			<strong>Week 2</strong>
+			<ul>
+				<li>Clean code</li>
+				<li>Refactoring</li>
+			</ul>
+		</li>
 		<li><strong>Bronnen</strong></li>
 	</ul>
 	<h2>Repositories</h2>
@@ -157,18 +164,6 @@
 		</li>
 		<li>
 			<strong>Actieve community en documentatie:</strong> GSAP heeft een actieve community
-
-			<h3>Bronnen</h3>
-			<ul>
-				<li>
-					<a href="https://en.wikipedia.org/wiki/Software_release_life_cycle"
-						>Software release life cycle
-					</a>
-				</li>
-				<li>
-					<a href="https://gsap.com">GSAB</a>
-				</li>
-			</ul>
 		</li>
 	</ul>
 
@@ -304,18 +299,30 @@
 
 	<h3>Voorbeeld:</h3>
 	<div class="code-block">
-		// Voor refactoring<br>
-		const pricePlan = retrievePricePlan();<br>
-		const order = retrieveOrder();<br>
-		let charge;<br>
-		const chargePerUnit = pricePlan.unit;<br><br>
-		
-		// Na refactoring<br>
-		const pricePlan = retrievePricePlan();<br>
-		const chargePerUnit = pricePlan.unit;<br>
-		const order = retrieveOrder();<br>
-		let charge;<br>
+		// Voor refactoring<br />
+		const pricePlan = retrievePricePlan();<br />
+		const order = retrieveOrder();<br />
+		let charge;<br />
+		const chargePerUnit = pricePlan.unit;<br /><br />
+
+		// Na refactoring<br />
+		const pricePlan = retrievePricePlan();<br />
+		const chargePerUnit = pricePlan.unit;<br />
+		const order = retrieveOrder();<br />
+		let charge;<br />
 	</div>
+
+	<h3>Bronnen</h3>
+	<ul>
+		<li>
+			<a href="https://en.wikipedia.org/wiki/Software_release_life_cycle"
+				>Software release life cycle
+			</a>
+		</li>
+		<li>
+			<a href="https://gsap.com">GSAB</a>
+		</li>
+	</ul>
 </div>
 
 <style>
