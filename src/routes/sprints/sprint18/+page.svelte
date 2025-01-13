@@ -20,13 +20,14 @@
 	</ul>
 	<h2>Repositories</h2>
 	<ul>
-		<li><a href="https://github.com/Remy2072/release-candidate">Release Candidate</a></li>
+		<li><a href="https://github.com/fdnd-agency/fdnd">Release Candidate</a></li>
 		<li><a href="https://github.com/Remy2072/i-love-web">i-love-web</a></li>
 	</ul>
 
 	<h2>Week 1 | 06 t/m 10 januari</h2>
 	<p style="margin-top: 1.25rem;">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, quidem.
+		Dit is de laatste sprint waarin we les krijgen op school. De komende colleges mochten we zelf
+		invullen met onderwerpen waar we graag meer over wilden leren.
 	</p>
 
 	<h3>Software Release Life Cycle (SRLC)</h3>
@@ -170,12 +171,164 @@
 			</ul>
 		</li>
 	</ul>
+
+	<h2>Week 2 | 13 t/m 17 januari</h2>
+
+	<h3>Clean Code</h3>
+	<p>
+		Het schrijven van clean code is een essentiële vaardigheid voor elke professional in
+		softwareontwikkeling. Het stelt je in staat om code te creëren die niet alleen functioneel is,
+		maar ook begrijpelijk en onderhoudbaar. Hieronder worden de belangrijkste principes en
+		richtlijnen voor clean code uitgelegd.
+	</p>
+
+	<h3>Wat is Clean Code?</h3>
+	<ul>
+		Clean code is code die:
+		<li style="margin-top: 1.25rem;">
+			<strong>Gemakkelijk te begrijpen</strong> is door iedereen in het team.
+		</li>
+		<li>
+			<strong>Leesbaar</strong>, <strong>aanpasbaar</strong>, <strong>uitbreidbaar</strong> en
+			<strong>onderhoudbaar</strong> is.
+		</li>
+		<li>
+			Kan worden gelezen en verbeterd door andere ontwikkelaars, ook als zij niet de oorspronkelijke
+			auteurs zijn.
+		</li>
+	</ul>
+
+	<h3>Tips voor Clean Code</h3>
+
+	<h3>1. Gebruik duidelijke namen</h3>
+	<ul>
+		<li>Kies beschrijvende en betekenisvolle namen voor variabelen, functies en bestanden.</li>
+		<li>
+			Vermijd cryptische afkortingen of generieke namen zoals <code>a</code>, <code>x</code>,
+			<code>data</code>, of <code>temp</code>.
+		</li>
+	</ul>
+
+	<h3>2. Schrijf kleine functies</h3>
+	<ul>
+		<li>
+			<strong>Houd functies klein:</strong> een functie zou slechts één verantwoordelijkheid moeten
+			hebben (volg het <em>Single Responsibility Principle</em>).
+		</li>
+		<li>
+			Minimaliseer het aantal parameters:
+			<ul>
+				<li>Voorkeur voor monadische functies (één parameter).</li>
+				<li>Gebruik diadische functies (twee parameters) indien nodig.</li>
+				<li>Vermijd triadische functies (drie parameters) of meer.</li>
+			</ul>
+		</li>
+		<li>
+			Vermijd side-effects: een functie moet alleen werken met de meegegeven parameters en een
+			duidelijke output teruggeven.
+		</li>
+	</ul>
+
+	<h3>3. Gebruik goed commentaar</h3>
+	<ul>
+		<li>
+			<strong>Less is more:</strong> Schrijf code die zichzelf uitlegt, zodat weinig commentaar nodig
+			is.
+		</li>
+		<li>Gebruik commentaar alleen als extra context noodzakelijk is.</li>
+		<li>
+			Verwijder uitgecommentarieerde code uit de codebase; gebruik versiebeheer (bijvoorbeeld Git)
+			om eerdere versies te raadplegen.
+		</li>
+	</ul>
+
+	<h3>4. Maak code leesbaar</h3>
+	<ul>
+		<li>Code wordt vaker gelezen dan geschreven. Zorg dat het intuïtief en helder is.</li>
+		<li>Gebruik consistente stijl, inspringing, en witruimte.</li>
+		<li>Volg de code-conventies binnen je team of organisatie.</li>
+	</ul>
+
+	<h3>5. Kleine opruimacties</h3>
+	<p>
+		Het verbeteren van code hoeft geen grote verandering te zijn. Kleine acties maken een verschil:
+	</p>
+	<ul>
+		<li>Hernoem één variabele naar een duidelijkere naam.</li>
+		<li>Splits een te grote functie op.</li>
+		<li>Elimineer een kleine duplicatie.</li>
+		<li>Maak samengestelde if-statements overzichtelijker.</li>
+	</ul>
+
+	<h3>Refactoring</h3>
+	<p>
+		Refactoring is het proces van het verbeteren van de structuur van code zonder het gedrag ervan
+		te veranderen. Het doel is om de code:
+	</p>
+	<ul>
+		<li><strong>Leesbaarder</strong>,</li>
+		<li><strong>Eenvoudiger te begrijpen</strong>,</li>
+		<li><strong>Makkelijker onderhoudbaar</strong>, en</li>
+		<li><strong>Uitbreidbaar</strong> te maken.</li>
+	</ul>
+
+	<h3>Belangrijke Refactoring-patronen</h3>
+
+	<h4>1. Hernoem functie declaratie</h4>
+	<ul>
+		<li>
+			Verander de naam, parameters, of volgorde van parameters van een functie om deze beter te
+			laten aansluiten bij de behoeften van de codebase.
+		</li>
+		<li>Dit verbetert de leesbaarheid, begrijpelijkheid en testbaarheid van de code.</li>
+	</ul>
+
+	<h4>2. Verwijder dode code</h4>
+	<ul>
+		<li>Identificeer en verwijder overbodige of ongebruikte functies, variabelen of klassen.</li>
+		<li>
+			Dit voorkomt dat ontwikkelaars worden afgeleid door irrelevante of verouderde onderdelen, en
+			verbetert de onderhoudbaarheid van de codebase.
+		</li>
+	</ul>
+
+	<h4>3. Verschuif statements</h4>
+	<ul>
+		<li>Plaats gerelateerde statements dichter bij elkaar.</li>
+		<li>Verplaats irrelevante of afleidende stukken code naar een geschiktere locatie.</li>
+		<li>
+			Door statements logisch te ordenen wordt de structuur van methoden duidelijker, wat leidt tot
+			beter begrip en eenvoudiger onderhoud.
+		</li>
+	</ul>
+
+	<h3>Voorbeeld:</h3>
+	<div class="code-block">
+		// Voor refactoring<br>
+		const pricePlan = retrievePricePlan();<br>
+		const order = retrieveOrder();<br>
+		let charge;<br>
+		const chargePerUnit = pricePlan.unit;<br><br>
+		
+		// Na refactoring<br>
+		const pricePlan = retrievePricePlan();<br>
+		const chargePerUnit = pricePlan.unit;<br>
+		const order = retrieveOrder();<br>
+		let charge;<br>
+	</div>
 </div>
 
 <style>
 	* {
 		font-size: 1.125rem;
 		line-height: 1.5;
+	}
+
+	.code-block {
+		box-shadow: var(--box-shadow-hero);
+		border-radius: 1.25rem;
+		padding: 2.188rem;
+		margin-top: 1.25rem;
 	}
 
 	.container {
