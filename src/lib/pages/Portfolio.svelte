@@ -21,6 +21,15 @@
 		/>
 
 		<Card
+		sprintNumber={'FDND'}
+		sprintName={'Profiel card'}
+		firstDay={'2024'}
+		webLink={''}
+		inputText={'Naar project'}
+		emoji={'🙋🏻‍♂️'}
+	/>
+
+		<Card
 			sprintNumber={'DEPT®'}
 			sprintName={'Weather Planner'}
 			firstDay={'2024'}
@@ -50,7 +59,7 @@
 		<Card
 			sprintNumber={'Mediacollege'}
 			sprintName={'Ecosy'}
-			firstDay={'2022'}
+			firstDay={'2021'}
 			webLink={''}
 			inputText={'Naar project'}
 			emoji={'♻️'}
