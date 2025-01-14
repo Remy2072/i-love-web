@@ -5,7 +5,7 @@
 		<small>Sprint 13</small>
 	</div>
 
-	<h2 class="inhoud">We ♥ Web met Vasilis van Gemert</h2>
+	<h2 class="inhoud">We 🩷 Web met Vasilis van Gemert</h2>
 
 	<h3>Toegankelijkheid, creativiteit en klokken</h3>
 	<ul>

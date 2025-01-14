@@ -5,7 +5,7 @@
 		<small>Sprint 15</small>
 	</div>
 
-	<h2 class="inhoud">We ♥ Web met Dion Pieters</h2>
+	<h2 class="inhoud">We 🧡 Web met Dion Pieters</h2>
 
 	<h3>Van concept tot creatie: de kunst van ontwikkeling</h3>
 	<ul>

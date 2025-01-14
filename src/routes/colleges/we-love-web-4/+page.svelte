@@ -5,7 +5,7 @@
 		<small>Sprint 16</small>
 	</div>
 
-    <h2 class="inhoud">We ♥ Web met met Emiel van Betsbrugge</h2>
+    <h2 class="inhoud">We 💛 Web met met Emiel van Betsbrugge</h2>
 
     <div style="margin-top: 1.25rem;">
         <p><strong>Proces & Polish: From Pitch to Production</strong></p>
