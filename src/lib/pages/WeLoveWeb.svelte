@@ -15,7 +15,7 @@
 			sprintNumber={'We 🩷 Web | Sprint 13'}
 			sprintName={'Vasilis van Gemert'}
 			firstDay={'13 Sep. 2024'}
-			webLink={'/colleges/wlw1'}
+			webLink={'/colleges/we-love-web-1'}
 			inputText={'Naar documentatie'}
 			emoji={'🩷'}
 		/>
@@ -23,7 +23,7 @@
 			sprintNumber={'We ❤️ Web | Sprint 14'}
 			sprintName={'Nicolas Garnier'}
 			firstDay={'04 Okt 2024.'}
-			webLink={''}
+			webLink={'/colleges/we-love-web-2'}
 			inputText={'Naar documentatie'}
 			emoji={'❤️'}
 		/>
@@ -31,7 +31,7 @@
 			sprintNumber={'We 🧡 Web | Sprint 15'}
 			sprintName={'Dion Pieters'}
 			firstDay={'18 Okt. 2024'}
-			webLink={''}
+			webLink={'/colleges/we-love-web-3'}
 			inputText={'Naar documentatie'}
 			emoji={'🧡'}
 		/>
@@ -39,7 +39,7 @@
 			sprintNumber={'We 💛 Web | Sprint 16'}
 			sprintName={'Emiel van Betsbrugge'}
 			firstDay={'22 Nov. 2024'}
-			webLink={''}
+			webLink={'/colleges/we-love-web-4'}
 			inputText={'Naar documentatie'}
 			emoji={'💛'}
 		/>
@@ -47,7 +47,7 @@
 			sprintNumber={'We 💚 Web | Sprint 17'}
 			sprintName={'Justus Sturkenboom'}
 			firstDay={'13 Dec. 2024'}
-			webLink={''}
+			webLink={'/colleges/we-love-web-5'}
 			inputText={'Naar documentatie'}
 			emoji={'💚'}
 		/>
@@ -55,7 +55,7 @@
 			sprintNumber={'We 🩵 Web | Sprint 18'}
 			sprintName={'Dave Bitter'}
 			firstDay={'17 Jan. 2025'}
-			webLink={''}
+			webLink={'/colleges/we-love-web-6'}
 			inputText={'Naar documentatie'}
 			emoji={'🩵'}
 		/>

@@ -74,7 +74,7 @@
 			inputText: 'Naar documentatie',
 			emoji: '🏆',
 		},
-	];
+	].reverse();
 </script>
 
 <header>
