@@ -23,6 +23,12 @@
 				<li>Refactoring</li>
 			</ul>
 		</li>
+		<li>
+			<strong>Week 3</strong>
+			<ul>
+				<li>Three.js</li>
+			</ul>
+		</li>
 		<li><strong>Bronnen</strong></li>
 	</ul>
 	<h2>Repositories</h2>
@@ -312,6 +318,48 @@
 		let charge;<br />
 	</div>
 
+	<h2>Week 3 | 20 t/m 24 januari</h2>
+
+	<h3>Three.js</h3>
+	<p>
+		Three.js is een krachtige JavaScript-bibliotheek waarmee je 3D-graphics kunt maken in de
+		browser. Hieronder vind je een overzicht van de belangrijkste concepten en basiselementen van
+		Three.js.
+	</p>
+
+	<h3>Camera</h3>
+	<p>
+		De <strong>Camera</strong> bepaalt het perspectief van waaruit je de 3D-wereld bekijkt. Er zijn twee
+		veelgebruikte cameratypes:
+	</p>
+	<ul>
+		<li>
+			<strong>Perspective Camera:</strong> Deze camera simuleert diepte zoals het menselijk oog dat doet.
+			Perfect voor realistische 3D-scenes.
+		</li>
+		<li>
+			<strong>Orthographic Camera:</strong> Deze camera heeft geen perspectivische vervorming, waardoor
+			objecten dezelfde grootte blijven ongeacht hun afstand.
+		</li>
+	</ul>
+
+	<h3>Render</h3>
+	<p>De <strong>Renderer</strong> zorgt ervoor dat de 3D-scène daadwerkelijk wordt weergegeven in de browser. De meest gebruikte renderer in Three.js is de <strong>WebGLRenderer</strong>.</p>
+
+	<h3>Belangrijke Componenten</h3>
+
+	<ul>
+		<li>
+		  <strong>Mesh</strong>: Een Mesh combineert geometrie (de vorm van een object) en materiaal (hoe het object eruitziet) om een renderbaar object te creëren.
+		</li>
+		<li>
+		  <strong>Light</strong>: Light (licht) is essentieel voor het bepalen van hoe objecten worden verlicht en weergegeven in de scène. Er zijn verschillende soorten lichten zoals Ambient Light, Point Light, en Directional Light.
+		</li>
+		<li>
+		  <strong>Shader</strong>: Een Shader is een stukje code dat bepaalt hoe pixels op het scherm worden weergegeven. Met shaders kun je aangepaste visuele effecten creëren.
+		</li>
+	  </ul>	  
+
 	<h3>Bronnen</h3>
 	<ul>
 		<li>
@@ -321,6 +369,15 @@
 		</li>
 		<li>
 			<a href="https://gsap.com">GSAB</a>
+		</li>
+		<li>
+			<a href="https://threejs-journey.com/">Three.js journey</a>
+		</li>
+		<li>
+			<a href="https://tympanus.net/codrops/">Cod Drops</a>
+		</li>
+		<li>
+			<a href="https://thebookofshaders.com/">The Book of Shaders</a>
 		</li>
 	</ul>
 </div>
