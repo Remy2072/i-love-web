@@ -27,6 +27,7 @@
 			<strong>Week 3</strong>
 			<ul>
 				<li>Three.js</li>
+				<li>Van offerte naar productie</li>
 			</ul>
 		</li>
 		<li><strong>Bronnen</strong></li>
@@ -344,21 +345,135 @@
 	</ul>
 
 	<h3>Render</h3>
-	<p>De <strong>Renderer</strong> zorgt ervoor dat de 3D-scène daadwerkelijk wordt weergegeven in de browser. De meest gebruikte renderer in Three.js is de <strong>WebGLRenderer</strong>.</p>
+	<p>
+		De <strong>Renderer</strong> zorgt ervoor dat de 3D-scène daadwerkelijk wordt weergegeven in de
+		browser. De meest gebruikte renderer in Three.js is de <strong>WebGLRenderer</strong>.
+	</p>
 
 	<h3>Belangrijke Componenten</h3>
 
 	<ul>
 		<li>
-		  <strong>Mesh</strong>: Een Mesh combineert geometrie (de vorm van een object) en materiaal (hoe het object eruitziet) om een renderbaar object te creëren.
+			<strong>Mesh</strong>: Een Mesh combineert geometrie (de vorm van een object) en materiaal
+			(hoe het object eruitziet) om een renderbaar object te creëren.
 		</li>
 		<li>
-		  <strong>Light</strong>: Light (licht) is essentieel voor het bepalen van hoe objecten worden verlicht en weergegeven in de scène. Er zijn verschillende soorten lichten zoals Ambient Light, Point Light, en Directional Light.
+			<strong>Light</strong>: Light (licht) is essentieel voor het bepalen van hoe objecten worden
+			verlicht en weergegeven in de scène. Er zijn verschillende soorten lichten zoals Ambient
+			Light, Point Light, en Directional Light.
 		</li>
 		<li>
-		  <strong>Shader</strong>: Een Shader is een stukje code dat bepaalt hoe pixels op het scherm worden weergegeven. Met shaders kun je aangepaste visuele effecten creëren.
+			<strong>Shader</strong>: Een Shader is een stukje code dat bepaalt hoe pixels op het scherm
+			worden weergegeven. Met shaders kun je aangepaste visuele effecten creëren.
 		</li>
-	  </ul>	  
+	</ul>
+
+	<h3>Van offerte naar productie</h3>
+
+	<h3>Timeline</h3>
+	<p>Vraag, Gesprek, Offerte, Design, Development, Oplevering, SLA</p>
+
+	<h3>Hoe kom je aan projecten?</h3>
+	<p>Je hebt een netwerk nodig</p>
+	<ul style="margin-top: 1.25rem;">
+		<li>Klas genoten</li>
+		<li>Collega’s op je werk</li>
+		<li>Vrienden, familie en kennissen</li>
+	</ul>
+
+	<h3>Wat wil de opdrachtgever (echt)</h3>
+	<ul>
+		<li>Briefing</li>
+		<li>Verwachtingen</li>
+		<li>Wat kan jij, wat kan ik</li>
+		<li>Nee zeggen, wil ik dit wel?</li>
+	</ul>
+
+	<h3>Vragen die je kan stellen aan de klant</h3>
+	<ul>
+		<li>Wat wil je met de site?</li>
+		<li>Wat is het doel?</li>
+		<li>Wil je informatie geven?</li>
+		<li>Of producten verkopen?</li>
+	</ul>
+	<p>Past het binnen mijn kennis?</p>
+
+	<h3>Wat staat er in een offerte</h3>
+	<ul>
+		<li>Wat ga je doen</li>
+		<li>Begroting</li>
+		<li>Planning en afspraken</li>
+		<li>Algemene voorwaarden</li>
+	</ul>
+	<p>
+		Bepaal je uurloon maar hou rekening met de sector. Voor culturele diensten vraag je vaak een
+		lager uurloon dan voor een commeriecele dienst.
+	</p>
+
+	<h3>Van schets naar ontwerp</h3>
+	<ul>
+		<li>Grove schetsen</li>
+		<li>Hi-Fi design</li>
+		<li>Development</li>
+		<li>Design changes on the way</li>
+	</ul>
+
+	<h3>Het bouwproces</h3>
+	<ul>
+		<li>Fundering datamodel</li>
+		<li>Framework kiezen</li>
+		<li>CMS uitkiezen</li>
+		<li>
+			Testen
+			<ul>
+				<li>HTML validator</li>
+				<li>Lighthouse test</li>
+			</ul>
+		</li>
+		<li>
+			Acceptatie omgeving opzetten
+			<ul>
+				<li>Development omgeving (voor mij)</li>
+				<li>Test server (voor mij en andere devs)</li>
+				<li>Acceptatie omgeving (voor de klant)</li>
+				<li>Productie omgeving (live voor iedereen)</li>
+			</ul>
+		</li>
+	</ul>
+
+	<h3>Afspraken over oplevering</h3>
+	<ul>
+		<li>Nooit vrijdag live gaan</li>
+		<li>Garantie & bugs fixing</li>
+		<li>
+			Betalingsmethode
+			<ul>
+				<li>Voorschot van 40% achteraf 60%</li>
+				<li>Alles achteraf</li>
+			</ul>
+		</li>
+		<li>Factuur sturen</li>
+	</ul>
+
+	<p>Maak een uren overzicht voor jezelf en eventueel voor de klant.</p>
+	<p style="margin-top: 1.25rem;">
+		Altijd iets meer uren inschatten dan je nodig hebt voor marge en winst.
+	</p>
+
+	<h3>Service Level Agreement</h3>
+	<p>Wat ga of kan je doen voor de klant na het project?</p>
+	<ul>
+		<li>Hosting & e-mail</li>
+		<li>Vaste aantal uren per maand voor features & onderhoud</li>
+		<li>
+			<strong>Tarieven:</strong>
+			<ul>
+				<li>Vaak lager uurtarief omdat het een passieve inkomstenbron is</li>
+				<li>Voor losse features en onderhoud: standaard uurtarief</li>
+				<li>Voor maandelijkse features en onderhoud: lager uurtarief</li>
+			</ul>
+		</li>
+	</ul>
 
 	<h3>Bronnen</h3>
 	<ul>
