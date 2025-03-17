@@ -5,7 +5,7 @@
 		<small>Sprint 19</small>
 	</div>
 
-	<h2 class="inhoud">We 💜 Web met met met Cassie Evans</h2>
+	<h2 class="inhoud">We 💜 Web met Cassie Evans</h2>
 
 <div>
     <h3>Over Cassie Evans</h3>
