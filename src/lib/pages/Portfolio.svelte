@@ -21,13 +21,13 @@
 		/>
 
 		<Card
-		sprintNumber={'FDND'}
-		sprintName={'Profiel card'}
-		firstDay={'2024'}
-		webLink={''}
-		inputText={'Naar project'}
-		emoji={'🙋🏻‍♂️'}
-	/>
+			sprintNumber={'FDND'}
+			sprintName={'Profiel card'}
+			firstDay={'2024'}
+			webLink={''}
+			inputText={'Naar project'}
+			emoji={'🙋🏻‍♂️'}
+		/>
 
 		<Card
 			sprintNumber={'DEPT®'}

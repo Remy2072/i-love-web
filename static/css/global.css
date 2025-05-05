@@ -9,66 +9,61 @@
 	--aqua-mist: #ddf9ff;
 	--white: #ffffff;
 
-    --gradient-hero: linear-gradient(225deg, rgba(221,249,255,1) 0%, rgba(255,255,255,1) 100%);
-    --gradient-card: linear-gradient(180deg, rgba(255,255,255,0.85) 0%, rgba(237,241,242,1) 100%);
-    --gradient-button: linear-gradient(45deg, rgba(221,249,255,1) 0%, rgba(255,255,255,1) 100%);
-    --gradient-nav: linear-gradient(70deg, rgba(255, 255, 255, 1) 0%, rgba(240, 243, 243, 1) 100%);
+	--gradient-hero: linear-gradient(225deg, rgba(221, 249, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+	--gradient-card: linear-gradient(
+		180deg,
+		rgba(255, 255, 255, 0.85) 0%,
+		rgba(237, 241, 242, 1) 100%
+	);
+	--gradient-button: linear-gradient(45deg, rgba(221, 249, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+	--gradient-nav: linear-gradient(70deg, rgba(255, 255, 255, 1) 0%, rgba(240, 243, 243, 1) 100%);
 
 	--font-weight-regular: 400;
 	--font-weight-medium: 500;
 	--font-weight-semi-bold: 600;
 	--font-weight-bold: 700;
 
-    --box-shadow-hero:
-    1px 1px 2px 0px rgba(255, 255, 255, 0.65),
-    inset -3px -3px 5px 0px rgba(255, 255, 255, 0.65),
-    -1px -1px 2px 0px rgba(0, 0, 0, 0.10),
-    inset 3px 3px 5px 0px rgba(0, 0, 0, 0.10);
+	--box-shadow-hero: 1px 1px 2px 0px rgba(255, 255, 255, 0.65),
+		inset -3px -3px 5px 0px rgba(255, 255, 255, 0.65), -1px -1px 2px 0px rgba(0, 0, 0, 0.1),
+		inset 3px 3px 5px 0px rgba(0, 0, 0, 0.1);
 
-    --box-shadow-card:
-    -1px -1px 5px 0px rgba(255, 255, 255, 0.75),
-    inset 1px 1px 1px 0px rgba(255, 255, 255, 0.65),
-    1px 1px 5px 0px rgba(0, 0, 0, 0.10),
-    inset -1px -1px 1px 0px rgba(0, 0, 0, 0.05);
+	--box-shadow-card: -1px -1px 5px 0px rgba(255, 255, 255, 0.75),
+		inset 1px 1px 1px 0px rgba(255, 255, 255, 0.65), 1px 1px 5px 0px rgba(0, 0, 0, 0.1),
+		inset -1px -1px 1px 0px rgba(0, 0, 0, 0.05);
 
-    --box-shadow-button:
-    -1px -1px 3px 0px rgba(255, 255, 255, 0.75),
-    inset 1px 1px 1px 0px rgba(255, 255, 255, 0.65),
-    1px 1px 3px 0px rgba(0, 0, 0, 0.05),
-    inset -1px -1px 1px 0px rgba(0, 0, 0, 0.03);
+	--box-shadow-button: -1px -1px 3px 0px rgba(255, 255, 255, 0.75),
+		inset 1px 1px 1px 0px rgba(255, 255, 255, 0.65), 1px 1px 3px 0px rgba(0, 0, 0, 0.05),
+		inset -1px -1px 1px 0px rgba(0, 0, 0, 0.03);
 
-    --box-shadow-line:
-    0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.65),
-    inset -1px -1px 2px 0px rgba(255, 255, 255, 0.65),
-    -0.5px -.05px 1px 0px rgba(0, 0, 0, 0.08),
-    inset 1px 1px 2px 0px rgba(0, 0, 0, 0.10);
+	--box-shadow-line: 0.5px 0.5px 1px 0px rgba(255, 255, 255, 0.65),
+		inset -1px -1px 2px 0px rgba(255, 255, 255, 0.65), -0.5px -0.05px 1px 0px rgba(0, 0, 0, 0.08),
+		inset 1px 1px 2px 0px rgba(0, 0, 0, 0.1);
 
-    --box-shadow-emoji: 0px 15px 10px rgba(0,0,0,0.3);
-
+	--box-shadow-emoji: 0px 15px 10px rgba(0, 0, 0, 0.1);
 }
 
 * {
 	margin: 0;
 	padding: 0;
-    appearance: none;
+	appearance: none;
 	box-sizing: border-box;
-    text-decoration: none;
+	text-decoration: none;
 	font-family: 'Outfit', sans-serif;
 }
 
 body {
 	background-color: var(--pale-frost);
-    color: var(--slate-blue);
+	color: var(--slate-blue);
 }
 
 h1 {
-    color: var(--black);
+	color: var(--black);
 }
 
 h2 {
-    color: var(--black);
+	color: var(--black);
 }
 
 h3 {
-    color: var(--black);
+	color: var(--black);
 }
