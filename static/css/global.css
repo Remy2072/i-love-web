@@ -8,6 +8,7 @@
 	--tropical-cyan: #1b9cb7;
 	--aqua-mist: #ddf9ff;
 	--white: #ffffff;
+	--platinum: #e8ecec;
 
 	--gradient-hero: linear-gradient(225deg, rgba(221, 249, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
 	--gradient-card: linear-gradient(
@@ -26,6 +27,10 @@
 	--box-shadow-hero: 1px 1px 2px 0px rgba(255, 255, 255, 0.65),
 		inset -3px -3px 5px 0px rgba(255, 255, 255, 0.65), -1px -1px 2px 0px rgba(0, 0, 0, 0.1),
 		inset 3px 3px 5px 0px rgba(0, 0, 0, 0.1);
+
+	--box-shadow-hero-hover: 1px 1px 2px 0px rgba(255, 255, 255, 0.65),
+		inset -5px -5px 5px 0px rgba(255, 255, 255, 0.95), -1px -1px 2px 0px rgba(0, 0, 0, 0.1),
+		inset 5px 5px 5px 0px rgba(0, 0, 0, 0.125);
 
 	--box-shadow-card: -1px -1px 5px 0px rgba(255, 255, 255, 0.75),
 		inset 1px 1px 1px 0px rgba(255, 255, 255, 0.65), 1px 1px 5px 0px rgba(0, 0, 0, 0.1),

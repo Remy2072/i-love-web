@@ -7,11 +7,9 @@
 
 	async function fetchCurrentTrack() {
 		try {
-			// Get access token
 			const tokenRes = await fetch('/api/spotify-token');
 			const { access_token } = await tokenRes.json();
 
-			// Fetch current playback state
 			const playbackRes = await fetch('https://api.spotify.com/v1/me/player', {
 				headers: {
 					Authorization: `Bearer ${access_token}`
@@ -23,7 +21,6 @@
 				isPlaying = playbackData.is_playing;
 				track = { track: playbackData.item };
 			} else {
-				// If nothing is playing, fallback to most recent track
 				const recentRes = await fetch(
 					'https://api.spotify.com/v1/me/player/recently-played?limit=1',
 					{
@@ -55,20 +52,26 @@
 	<div class="spotify">
 		<div class="container-1">
 			<h2>Onlangs beluisterd</h2>
-			<strong>Loading...</strong>
-			<span>Please wait</span>
+			<strong>Laden...</strong>
+			<span>We halen het nummer op</span>
 		</div>
 	</div>
 {:else if error}
 	<div class="spotify">
 		<div class="container-1">
-			<h2>Error</h2>
+			<h2>Ohjee...</h2>
 			<strong>{error}</strong>
-			<span>Please try again later</span>
+			<span>We hebben nu even geen verbinding 😔</span>
 		</div>
 	</div>
 {:else if track}
-	<div class="spotify">
+	<a
+		class="spotify"
+		href={`https://open.spotify.com/track/${track.track.id}`}
+		target="_blank"
+		rel="noopener noreferrer"
+		style="text-decoration: none; color: inherit;"
+	>
 		<div class="container-1">
 			<h2>{isPlaying ? 'Nu aan het luisteren' : 'Onlangs beluisterd'}</h2>
 			<strong>{track.track.name}</strong>
@@ -82,7 +85,7 @@
 			/>
 			<img class="img-2" src="/img/record.png" alt="record" />
 		</div>
-	</div>
+	</a>
 {/if}
 
 <style>
@@ -94,6 +97,22 @@
 		display: flex;
 		flex-direction: row;
 		position: relative;
+		cursor: pointer;
+		transition: 450ms;
+	}
+
+	.spotify:hover {
+		box-shadow: var(--box-shadow-hero-hover);
+
+		background-color: var(--platinum);
+	}
+
+	.spotify * {
+		transition: 450ms;
+	}
+
+	.spotify:hover * {
+		transform: scale(0.99);
 	}
 
 	.container-1 {
@@ -108,6 +127,15 @@
 		font-size: 1rem;
 		font-weight: var(--font-weight-medium);
 		color: var(--dusty-lavender);
+	}
+
+	strong,
+	span {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		max-width: 200px;
+		display: block;
 	}
 
 	strong {

@@ -26,11 +26,11 @@
 		position: relative;
 		margin-top: 1.563rem;
 		cursor: pointer;
+		transition: 450ms;
 	}
 
 	article:hover {
 		transform: scale(1.02);
-		transition: 0.5s;
 	}
 
 	article::after {

@@ -1,4 +1,3 @@
-// src/routes/api/spotify-token/+server.js
 import { json } from '@sveltejs/kit';
 import {
 	SPOTIFY_CLIENT_ID,
@@ -8,7 +7,6 @@ import {
 
 export async function GET() {
 	try {
-		// Log the values (for debugging only, remove in production)
 		console.log('Client ID:', SPOTIFY_CLIENT_ID);
 		console.log('Client Secret:', SPOTIFY_CLIENT_SECRET);
 		console.log('Refresh Token:', SPOTIFY_REFRESH_TOKEN);
