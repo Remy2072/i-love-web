@@ -7,41 +7,41 @@
 
 	<h2 class="inhoud">We ♥ Web met Nicolas Garniert</h2>
 
-    <p>
-        Na het einde van Flash begon JS overal ingezet te worden, en sinds 2018 is Nicolas freelancer in WebGL.
-        Hij werkt voor agencies, productteams en start-ups als Creative Developer.
-    </p>
-    
-    <h3>Creative Developer:</h3>
-    <ul>
-        <li>Een chique term voor een developer met oog voor creativiteit.</li>
-        <li>Hij gebruikt alle beschikbare tools:</li>
-    </ul>
-    
-    <h3>Websites, apps, installaties</h3>
-    <ul>
-        <li>Websites, apps, installaties</li>
-        <li>JS, CSS, WebGL, Processing, Unity, GenAI, LLM, enz.</li>
-        <li>In de kern draait het om: code, design, beweging en interactie.</li>
-        <li>Storytelling op het web!</li>
-    </ul>
-    
-    <h3>Creëer anticipatie en verrassing:</h3>
-    <ul>
-        <li>Ondersteun het verhaal en zet de sfeer</li>
-        <li>Betrek de gebruiker</li>
-        <li>Los een design- of technische uitdaging op</li>
-    </ul>
-    
-    <h3>Conclusie:</h3>
-    <ul>
-        <li>Zie animaties en interacties als een verlengstuk van je oorspronkelijke intentie.</li>
-        <li>Blijf open-minded.</li>
-        <li>Vraag jezelf af wat het toevoegt en vraag om feedback.</li>
-        <li>Wees bereid er veel tijd in te steken.</li>
-    </ul>
+	<p>
+		Na het einde van Flash begon JS overal ingezet te worden, en sinds 2018 is Nicolas freelancer in
+		WebGL. Hij werkt voor agencies, productteams en start-ups als Creative Developer.
+	</p>
 
-    <a href="https://nico.computer/">Portfolio</a>
+	<h3>Creative Developer:</h3>
+	<ul>
+		<li>Een chique term voor een developer met oog voor creativiteit.</li>
+		<li>Hij gebruikt alle beschikbare tools:</li>
+	</ul>
+
+	<h3>Websites, apps, installaties</h3>
+	<ul>
+		<li>Websites, apps, installaties</li>
+		<li>JS, CSS, WebGL, Processing, Unity, GenAI, LLM, enz.</li>
+		<li>In de kern draait het om: code, design, beweging en interactie.</li>
+		<li>Storytelling op het web!</li>
+	</ul>
+
+	<h3>Creëer anticipatie en verrassing:</h3>
+	<ul>
+		<li>Ondersteun het verhaal en zet de sfeer</li>
+		<li>Betrek de gebruiker</li>
+		<li>Los een design- of technische uitdaging op</li>
+	</ul>
+
+	<h3>Conclusie:</h3>
+	<ul>
+		<li>Zie animaties en interacties als een verlengstuk van je oorspronkelijke intentie.</li>
+		<li>Blijf open-minded.</li>
+		<li>Vraag jezelf af wat het toevoegt en vraag om feedback.</li>
+		<li>Wees bereid er veel tijd in te steken.</li>
+	</ul>
+
+	<a href="https://nico.computer/">Portfolio</a>
 </div>
 
 <style>
@@ -50,20 +50,13 @@
 		line-height: 1.5;
 	}
 
-	.code-block {
-		box-shadow: var(--box-shadow-hero);
-		border-radius: 1.25rem;
-		padding: 2.188rem;
-		margin-top: 1.25rem;
-	}
-
 	.container {
 		display: flex;
 		align-items: left;
 		flex-direction: column;
 		justify-content: center;
 		padding: 0 10%;
-		margin-bottom: 200px;
+		margin-bottom: 12.5rem;
 	}
 
 	.emoji {
@@ -127,21 +120,12 @@
 		color: var(--slate-blue);
 	}
 
-	img {
-		margin-top: 1.25rem;
-		border-radius: 15px;
-		border: 3px solid var(--dusty-lavender);
-	}
-
 	ul {
 		list-style-type: revert;
 		padding-left: 1.25rem;
 	}
 	ul li {
 		margin-bottom: 0.5em;
-	}
-	ul li ul {
-		margin-left: 1.25rem;
 	}
 
 	a {

@@ -21,7 +21,7 @@
 		flex-direction: column;
 		justify-content: center;
 		padding: 0 10%;
-		margin-bottom: 200px;
+		margin-bottom: 12.5rem;
 	}
 
 	.emoji {

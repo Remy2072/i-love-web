@@ -12,7 +12,7 @@
 	}
 
 	const pages = [
-		{ name: 'sprints', emoji: '🚀', href: '/sprint' },
+		{ name: 'sprints', emoji: '🚀', href: '/' },
 		{ name: 'we ♥ web', emoji: '🌍', href: '/we-love-web' },
 		{ name: 'portfolio', emoji: '👨🏻‍💻', href: '/portfolio' },
 		{ name: 'over mij', emoji: '🤙🏼', href: '/over-mij' }

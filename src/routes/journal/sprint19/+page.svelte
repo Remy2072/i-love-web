@@ -667,7 +667,7 @@
 		flex-direction: column;
 		justify-content: center;
 		padding: 0 10%;
-		margin-bottom: 200px;
+		margin-bottom: 12.5rem;
 	}
 
 	.emoji {
@@ -731,12 +731,6 @@
 		color: var(--slate-blue);
 	}
 
-	img {
-		margin-top: 1.25rem;
-		border-radius: 15px;
-		border: 3px solid var(--dusty-lavender);
-	}
-
 	ul {
 		list-style-type: revert;
 		padding-left: 1.25rem;
@@ -746,12 +740,6 @@
 	}
 	ul li ul {
 		margin-left: 1.25rem;
-	}
-
-	a {
-		color: var(--tropical-cyan);
-		text-decoration: underline;
-		margin: 0;
 	}
 
 	@media (min-width: 600px) {

@@ -56,20 +56,13 @@
 		line-height: 1.5;
 	}
 
-	.code-block {
-		box-shadow: var(--box-shadow-hero);
-		border-radius: 1.25rem;
-		padding: 2.188rem;
-		margin-top: 1.25rem;
-	}
-
 	.container {
 		display: flex;
 		align-items: left;
 		flex-direction: column;
 		justify-content: center;
 		padding: 0 10%;
-		margin-bottom: 200px;
+		margin-bottom: 12.5rem;
 	}
 
 	.emoji {
@@ -123,20 +116,10 @@
 		font-size: 1.563rem;
 	}
 
-	.inhoud {
-		margin-top: 4.688rem;
-	}
-
 	h3 {
 		margin-top: 1.25rem;
 		font-size: 1.125rem;
 		color: var(--slate-blue);
-	}
-
-	img {
-		margin-top: 1.25rem;
-		border-radius: 15px;
-		border: 3px solid var(--dusty-lavender);
 	}
 
 	ul {
@@ -145,9 +128,6 @@
 	}
 	ul li {
 		margin-bottom: 0.5em;
-	}
-	ul li ul {
-		margin-left: 1.25rem;
 	}
 
 	a {

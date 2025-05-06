@@ -104,7 +104,9 @@
 		varianten kan maken die bij elkaar passen.
 	</p>
 
-	<p style="margin-top: 1rem;">In een kleurenpalet, kan je ervoor kiezen om de kleuren te verdelen in 3 categorieën.</p>
+	<p style="margin-top: 1rem;">
+		In een kleurenpalet, kan je ervoor kiezen om de kleuren te verdelen in 3 categorieën.
+	</p>
 
 	<ul>
 		<li>Primaire</li>
@@ -125,24 +127,60 @@
 
 	<h3>Design tips</h3>
 	<ul>
-		<li>Als je gradients gebruikt, is het handig om met <strong>LAB</strong> te werken, omdat LAB meer kleurondersteuning biedt in gradients. Hierdoor springen de kleuren er nog meer uit.</li>
+		<li>
+			Als je gradients gebruikt, is het handig om met <strong>LAB</strong> te werken, omdat LAB meer
+			kleurondersteuning biedt in gradients. Hierdoor springen de kleuren er nog meer uit.
+		</li>
 		<li>Je ontwerp heeft altijd <strong>wit</strong> nodig.</li>
-		<li>Als je een lichte achtergrond hebt, gebruik dan donkere kleuren op de voorgrond voor een goed contrast.</li>
-		<li>Als je een donkere achtergrond hebt, gebruik dan lichte kleuren op de voorgrond voor een goed contrast en maak de <strong>line height</strong> wat breder, omdat het dan makkelijker te lezen is.</li>
-		<li>Bij het gebruiken van grafieken is het beter om de <strong>saturation</strong> en <strong>lightness</strong> te veranderen dan de <strong>hue</strong> voor toegankelijkheid.</li>
-		<li><strong>WCAG3</strong> is bezig met een nieuw contrast systeem genaamd <strong><a href="https://typefully.com/DanHollick/wcag-3-and-apca-sle13GMW2Brp">APCA</a></strong>, dat ervoor moet zorgen dat mensen nog beter een contrastverschil kunnen berekenen.</li>
-	  </ul>
+		<li>
+			Als je een lichte achtergrond hebt, gebruik dan donkere kleuren op de voorgrond voor een goed
+			contrast.
+		</li>
+		<li>
+			Als je een donkere achtergrond hebt, gebruik dan lichte kleuren op de voorgrond voor een goed
+			contrast en maak de <strong>line height</strong> wat breder, omdat het dan makkelijker te lezen
+			is.
+		</li>
+		<li>
+			Bij het gebruiken van grafieken is het beter om de <strong>saturation</strong> en
+			<strong>lightness</strong>
+			te veranderen dan de <strong>hue</strong> voor toegankelijkheid.
+		</li>
+		<li>
+			<strong>WCAG3</strong> is bezig met een nieuw contrast systeem genaamd
+			<strong
+				><a href="https://typefully.com/DanHollick/wcag-3-and-apca-sle13GMW2Brp">APCA</a></strong
+			>, dat ervoor moet zorgen dat mensen nog beter een contrastverschil kunnen berekenen.
+		</li>
+	</ul>
 
-	  <h3>Bronnen</h3>
-	  <ul>
-		<li><a href="https://css-tricks.com/basics-css-blend-modes/" target="_blank">Basics of CSS Blend Modes</a></li>
+	<h3>Bronnen</h3>
+	<ul>
+		<li>
+			<a href="https://css-tricks.com/basics-css-blend-modes/" target="_blank"
+				>Basics of CSS Blend Modes</a
+			>
+		</li>
 		<li><a href="https://css-tricks.com/grainy-gradients/" target="_blank">Grainy Gradients</a></li>
-		<li><a href="https://css-tricks.com/the-state-of-changing-gradients-with-css-transitions-and-animations/" target="_blank">The State of Changing Gradients with CSS Transitions and Animations</a></li>
-		<li><a href="https://frontendmasters.com/blog/split-effects-with-no-content-duplication/" target="_blank">Split Effects with No Content Duplication</a>.</li>
-		<li><a href="https://tympanus.net/codrops/2021/12/07/coloring-with-code-a-programmatic-approach-to-design/" target="_blank">Coloring with Code: A Programmatic Approach to Design</a></li>
-	  </ul>
-	  
-	  
+		<li>
+			<a
+				href="https://css-tricks.com/the-state-of-changing-gradients-with-css-transitions-and-animations/"
+				target="_blank">The State of Changing Gradients with CSS Transitions and Animations</a
+			>
+		</li>
+		<li>
+			<a
+				href="https://frontendmasters.com/blog/split-effects-with-no-content-duplication/"
+				target="_blank">Split Effects with No Content Duplication</a
+			>.
+		</li>
+		<li>
+			<a
+				href="https://tympanus.net/codrops/2021/12/07/coloring-with-code-a-programmatic-approach-to-design/"
+				target="_blank">Coloring with Code: A Programmatic Approach to Design</a
+			>
+		</li>
+	</ul>
 </div>
 
 <style>
@@ -157,7 +195,7 @@
 		flex-direction: column;
 		justify-content: center;
 		padding: 0 10%;
-		margin-bottom: 200px;
+		margin-bottom: 12.5rem;
 	}
 
 	.emoji {
@@ -219,12 +257,6 @@
 		margin-top: 1.25rem;
 		font-size: 1.125rem;
 		color: var(--slate-blue);
-	}
-
-	img {
-		margin-top: 1.25rem;
-		border-radius: 15px;
-		border: 3px solid var(--dusty-lavender);
 	}
 
 	ul {
