@@ -1,42 +1,55 @@
 <script>
-	import { onMount, createEventDispatcher } from 'svelte';
+	import { onMount, createEventDispatcher, tick } from 'svelte';
 
 	let navMarker;
 	let navItems = [];
 	let activeIndex = 0;
 	const dispatch = createEventDispatcher();
 
+	const pages = ['sprints', 'we ♥ web', 'portfolio', 'over mij'];
+
 	function updateIndicator(target) {
-		if (navMarker) {
+		if (navMarker && target) {
 			navMarker.style.left = `${target.offsetLeft}px`;
 			navMarker.style.width = `${target.offsetWidth}px`;
 		}
 	}
 
 	function setActive(index, event, page) {
+		event.preventDefault();
 		activeIndex = index;
 		updateIndicator(event.target);
 		dispatch('pageChange', page);
+
+		const url = new URL(window.location);
+		url.searchParams.set('page', page); 
+		window.history.pushState({}, '', url);
+	}
+
+	async function setActiveFromURL() {
+		const urlParams = new URLSearchParams(window.location.search);
+		const currentPage = urlParams.get('page');
+		const index = pages.indexOf(currentPage);
+		if (index !== -1) {
+			activeIndex = index;
+			await tick();
+			updateIndicator(navItems[index]);
+		} else {
+			activeIndex = 0;
+			await tick();
+			updateIndicator(navItems[0]);
+		}
 	}
 
 	onMount(() => {
-		if (navItems.length > 0 && navMarker) {
-			updateIndicator(navItems[0]);
-		}
+		setActiveFromURL();
 	});
-
-	function handleKeydown(event, index, page) {
-		if (event.key === 'Enter' || event.key === ' ') {
-			event.preventDefault();
-			setActive(index, event, page);
-		}
-	}
 </script>
 
 <header>
 	<nav>
 		<ul>
-			{#each ['sprints', 'we ♥ web', 'portfolio', 'overmij'] as page, i}
+			{#each ['sprints', 'we ♥ web', 'portfolio', 'over mij'] as page, i}
 				<li>
 					<a
 						href="/"
