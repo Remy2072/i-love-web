@@ -1,14 +1,89 @@
-<div class="spotify">
-	<div class="container-1">
-		<h2>Onlangs beluisterd</h2>
-		<strong>Money Trees</strong>
-		<span>Kendrick Lamar</span>
+<script>
+	import { onMount } from 'svelte';
+	let track = null;
+	let error = null;
+	let loading = true;
+	let isPlaying = false;
+
+	async function fetchCurrentTrack() {
+		try {
+			// Get access token
+			const tokenRes = await fetch('/api/spotify-token');
+			const { access_token } = await tokenRes.json();
+
+			// Fetch current playback state
+			const playbackRes = await fetch('https://api.spotify.com/v1/me/player', {
+				headers: {
+					Authorization: `Bearer ${access_token}`
+				}
+			});
+
+			if (playbackRes.status === 200) {
+				const playbackData = await playbackRes.json();
+				isPlaying = playbackData.is_playing;
+				track = { track: playbackData.item };
+			} else {
+				// If nothing is playing, fallback to most recent track
+				const recentRes = await fetch(
+					'https://api.spotify.com/v1/me/player/recently-played?limit=1',
+					{
+						headers: {
+							Authorization: `Bearer ${access_token}`
+						}
+					}
+				);
+				if (!recentRes.ok) throw new Error('Failed to fetch track');
+				const data = await recentRes.json();
+				track = data.items[0];
+				isPlaying = false;
+			}
+		} catch (err) {
+			error = err.message;
+		} finally {
+			loading = false;
+		}
+	}
+
+	onMount(() => {
+		fetchCurrentTrack();
+		const interval = setInterval(fetchCurrentTrack, 1000);
+		return () => clearInterval(interval);
+	});
+</script>
+
+{#if loading}
+	<div class="spotify">
+		<div class="container-1">
+			<h2>Onlangs beluisterd</h2>
+			<strong>Loading...</strong>
+			<span>Please wait</span>
+		</div>
 	</div>
-	<div class="container-2">
-		<img class="img-1" src="/img/moneyTrees.png" alt="" />
-		<img class="img-2" src="/img/record.png" alt="" />
+{:else if error}
+	<div class="spotify">
+		<div class="container-1">
+			<h2>Error</h2>
+			<strong>{error}</strong>
+			<span>Please try again later</span>
+		</div>
 	</div>
-</div>
+{:else if track}
+	<div class="spotify">
+		<div class="container-1">
+			<h2>{isPlaying ? 'Nu aan het luisteren' : 'Onlangs beluisterd'}</h2>
+			<strong>{track.track.name}</strong>
+			<span>{track.track.artists[0].name}</span>
+		</div>
+		<div class="container-2">
+			<img
+				class="img-1 {isPlaying ? 'spinning' : ''}"
+				src={track.track.album.images[0].url}
+				alt={track.track.name}
+			/>
+			<img class="img-2" src="/img/record.png" alt="record" />
+		</div>
+	</div>
+{/if}
 
 <style>
 	.spotify {
@@ -53,6 +128,7 @@
 		right: 4rem;
 		display: grid;
 		place-items: center;
+		transform: translateY(-50%);
 	}
 
 	@media (min-width: 900px) {
@@ -73,6 +149,20 @@
 		height: 50px;
 		z-index: 1;
 		border-radius: 50%;
+		transition: transform 0.3s ease;
+	}
+
+	.img-1.spinning {
+		animation: spin 5s linear infinite;
+	}
+
+	@keyframes spin {
+		from {
+			transform: rotate(0deg);
+		}
+		to {
+			transform: rotate(360deg);
+		}
 	}
 
 	@media (min-width: 900px) {
