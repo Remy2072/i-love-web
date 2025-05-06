@@ -5,7 +5,7 @@
 		<span>Kendrick Lamar</span>
 	</div>
 	<div class="container-2">
-		<img class="img-1" src="/img/album.png" alt="" />
+		<img class="img-1" src="/img/moneyTrees.png" alt="" />
 		<img class="img-2" src="/img/record.png" alt="" />
 	</div>
 </div>
@@ -77,9 +77,9 @@
 
 	@media (min-width: 900px) {
 		.img-1 {
-		width: 60px;
-		height: 60px;
-	}
+			width: 60px;
+			height: 60px;
+		}
 	}
 
 	.img-2 {
@@ -90,8 +90,8 @@
 
 	@media (min-width: 900px) {
 		.img-2 {
-		width: 110px;
-		height: 110px;
-	}
+			width: 110px;
+			height: 110px;
+		}
 	}
 </style>

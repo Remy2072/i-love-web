@@ -1,12 +1,8 @@
 <script>
-	import { onMount, createEventDispatcher, tick } from 'svelte';
+	import { page } from '$app/stores';
 
 	let navMarker;
 	let navItems = [];
-	let activeIndex = 0;
-	const dispatch = createEventDispatcher();
-
-	const pages = ['sprints', 'we ♥ web', 'portfolio', 'over mij'];
 
 	function updateIndicator(target) {
 		if (navMarker && target) {
@@ -15,55 +11,34 @@
 		}
 	}
 
-	function setActive(index, event, page) {
-		event.preventDefault();
-		activeIndex = index;
-		updateIndicator(event.target);
-		dispatch('pageChange', page);
+	const pages = [
+		{ name: 'sprints', emoji: '🚀', href: '/sprint' },
+		{ name: 'we ♥ web', emoji: '🌍', href: '/we-love-web' },
+		{ name: 'portfolio', emoji: '👨🏻‍💻', href: '/portfolio' },
+		{ name: 'over mij', emoji: '🤙🏼', href: '/over-mij' }
+	];
 
-		const url = new URL(window.location);
-		url.searchParams.set('page', page); 
-		window.history.pushState({}, '', url);
-	}
-
-	async function setActiveFromURL() {
-		const urlParams = new URLSearchParams(window.location.search);
-		const currentPage = urlParams.get('page');
-		const index = pages.indexOf(currentPage);
-		if (index !== -1) {
-			activeIndex = index;
-			await tick();
-			updateIndicator(navItems[index]);
-		} else {
-			activeIndex = 0;
-			await tick();
-			updateIndicator(navItems[0]);
+	$: {
+		const activeItem = navItems.find((item) => item?.classList.contains('active'));
+		if (activeItem) {
+			updateIndicator(activeItem);
 		}
 	}
-
-	onMount(() => {
-		setActiveFromURL();
-	});
 </script>
 
 <header>
 	<nav>
 		<ul>
-			{#each ['sprints', 'we ♥ web', 'portfolio', 'over mij'] as page, i}
+			{#each pages as { name, emoji, href }, i}
 				<li>
 					<a
-						href="/"
-						class:active={activeIndex === i}
+						{href}
+						class:active={$page.url.pathname === href}
 						bind:this={navItems[i]}
-						on:click={(event) => setActive(i, event, page)}
-						on:keydown={(event) => handleKeydown(event, i, page)}
-						tabindex="0"
-						role="button"
+						on:click={(event) => updateIndicator(event.target)}
 					>
-						<span
-							>{#if i === 0}🚀{:else if i === 1}🌍{:else if i === 2}👨🏻‍💻{:else}🤙🏼{/if}</span
-						>
-						{page.charAt(0).toUpperCase() + page.slice(1)}
+						<span>{emoji}</span>
+						{name.charAt(0).toUpperCase() + name.slice(1)}
 					</a>
 				</li>
 			{/each}
