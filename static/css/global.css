@@ -56,6 +56,10 @@ body {
 	color: var(--slate-blue);
 }
 
+main {
+	margin-bottom: 9.375rem;
+}
+
 h1 {
 	color: var(--black);
 }
