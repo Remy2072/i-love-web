@@ -1,6 +1,5 @@
 {
-    "emmet.syntaxProfiles": {
-
-    },
-    "html.format.extraLiners": ""
+	"emmet.syntaxProfiles": {},
+	"html.format.extraLiners": "",
+	"emmet.preferences": {}
 }

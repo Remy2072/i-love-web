@@ -6,8 +6,12 @@
 
 	function updateIndicator(target) {
 		if (navMarker && target) {
-			navMarker.style.left = `${target.offsetLeft}px`;
-			navMarker.style.width = `${target.offsetWidth}px`;
+			// Always get the parent <a> in case the span is clicked
+			const linkElement = target.closest('a');
+			if (linkElement) {
+				navMarker.style.left = `${linkElement.offsetLeft}px`;
+				navMarker.style.width = `${linkElement.offsetWidth}px`;
+			}
 		}
 	}
 
@@ -37,7 +41,7 @@
 						bind:this={navItems[i]}
 						on:click={(event) => updateIndicator(event.target)}
 					>
-						<span>{emoji}</span>
+						<span class="emoji">{emoji}</span>
 						{name.charAt(0).toUpperCase() + name.slice(1)}
 					</a>
 				</li>
@@ -142,23 +146,23 @@
 		outline-offset: 4px;
 	}
 
-	span {
+	.emoji {
 		font-size: 2.188rem;
 		position: absolute;
 		left: 50%;
 		top: 0;
 		transform: translateX(-50%) translateY(-2.5rem);
-		pointer-events: none;
 		transition: 500ms ease;
+		cursor: pointer;
 	}
 
 	@media (min-width: 485px) {
-		span {
+		.emoji {
 			font-size: 2.813rem;
 		}
 	}
 
-	header nav ul li a.active span {
+	header nav ul li a.active .emoji {
 		transform: translateX(-50%) translateY(-2.813rem) scale(1.15);
 	}
 </style>
