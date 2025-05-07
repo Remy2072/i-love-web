@@ -86,7 +86,7 @@
 				src={track.track.album.images[0].url}
 				alt={track.track.name}
 			/>
-			<img class="img-2" src="/img/record.png" alt="record" />
+			<img class="img-2 {isPlaying ? 'spinning' : ''}" src="/img/record.png" alt="record" />
 		</div>
 	</a>
 {/if}
@@ -208,6 +208,16 @@
 		animation: spin 5s linear infinite;
 	}
 
+	.img-2 {
+		position: absolute;
+		width: 95px;
+		height: 95px;
+	}
+
+	.img-2.spinning {
+		animation: spin 5s linear infinite;
+	}
+
 	@keyframes spin {
 		from {
 			transform: rotate(0deg);
@@ -222,15 +232,7 @@
 			width: 60px;
 			height: 60px;
 		}
-	}
 
-	.img-2 {
-		position: absolute;
-		width: 95px;
-		height: 95px;
-	}
-
-	@media (min-width: 900px) {
 		.img-2 {
 			width: 110px;
 			height: 110px;
