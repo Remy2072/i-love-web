@@ -1,4 +1,6 @@
 <script>
+	import Svg from '../../lib/utils/Svg.svelte';
+
 	import 'leaflet/dist/leaflet.css';
 	import { onMount, onDestroy } from 'svelte';
 
@@ -72,11 +74,31 @@
 			Alkmaar. Ik ben gespecialiseerd in <span class="blue">front-end development</span> van het ontwerpen
 			tot bouwen van websites en webapplicaties.
 		</p>
-		<img src="/img/memoji.png" alt="svg van zelfportret" />
+		<img src="/img/memoji.png" alt="Zelfportret van Remy Duivesteijn" />
 	</div>
 
 	<div class="two">
 		<div bind:this={mapDiv} class="map-square" on:click={openGoogleMaps}></div>
+	</div>
+
+	<div class="three">
+		<div class="linkedin"><Svg name="linkedin" /></div>
+		<div class="github"><Svg name="github" /></div>
+		<div class="discord"><Svg name="discord" /></div>
+		<div class="email"><Svg name="email" /></div>
+	</div>
+
+	<div class="four">
+		<span class="day">MAANDAG</span>
+		<h2 class="date">5</h2>
+		<h3 class="today">VANDAAG</h3>
+		<div class="agenda-item">
+			<h4 class="agenda-item-title">Chest Day</h4>
+			<span class="agenda-item-time">12:00 - 13:00</span>
+		</div>
+		<div class="agenda-item-2">
+			<h5 class="agenda-item-title-2">Nog 1 activiteit</h5>
+		</div>
 	</div>
 </section>
 
@@ -108,12 +130,7 @@
 		flex-direction: column;
 		justify-content: center;
 		height: 100%; /* Ensures they stretch to fill the row */
-	}
-
-	div {
-		width: 100%;
-		box-shadow: var(--box-shadow-card);
-		border-radius: 1.25rem;
+		z-index: 1;
 	}
 
 	.gray {
@@ -129,6 +146,9 @@
 		position: relative;
 		color: #6e6e84bf;
 		padding: 20px;
+		border-radius: 1.25rem;
+		width: 100%;
+		box-shadow: var(--box-shadow-card);
 	}
 
 	.hello {
@@ -153,7 +173,9 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		z-index: 1;
+		border-radius: 1.25rem;
+		width: 100%;
+		box-shadow: var(--box-shadow-card);
 	}
 
 	.map-square {
@@ -162,5 +184,130 @@
 		min-width: 200px;
 		min-height: 200px;
 		cursor: pointer;
+		border-radius: 1.25rem;
+		width: 100%;
+		box-shadow: var(--box-shadow-card);
+	}
+	.three {
+		display: grid;
+		padding: 35px;
+		grid-template-columns: repeat(2, 1fr);
+		grid-auto-rows: auto;
+		gap: 1.25rem;
+		border-radius: 1.25rem;
+		width: 100%;
+		box-shadow: var(--box-shadow-card);
+		background-color: #f0f3f3;
+	}
+
+	.linkedin,
+	.github,
+	.discord,
+	.email {
+		display: flex; /* Enables flexbox */
+		align-items: center; /* Centers content vertically */
+		justify-content: center; /* Centers content horizontally */
+		border-radius: 7.5px;
+		box-shadow: var(--box-shadow-button);
+		width: 100%; /* Ensure the div takes full width */
+		height: 100%; /* Ensure the div takes full height */
+	}
+
+	.linkedin {
+		background: linear-gradient(149deg, rgba(0, 102, 152, 1) 0%, rgba(0, 102, 152, 1) 100%);
+	}
+
+	.github {
+		background: linear-gradient(149deg, rgba(111, 65, 194, 1) 0%, rgba(138, 87, 230, 1) 100%);
+	}
+
+	.discord {
+		background: linear-gradient(149deg, rgba(88, 101, 242, 1) 0%, rgba(125, 135, 247, 1) 100%);
+	}
+
+	.email {
+		background: linear-gradient(149deg, rgba(237, 241, 242, 1) 0%, rgba(255, 255, 255, 1) 100%);
+	}
+
+	.four {
+		box-shadow: var(--box-shadow-card);
+		background: linear-gradient(149deg, rgba(255, 255, 255, 1) 0%, rgba(237, 241, 242, 1) 100%);
+		border-radius: 1.25rem;
+		padding: 35px;
+	}
+	.day {
+		font-size: 18px;
+		font-weight: 700;
+		color: #eb2329;
+	}
+
+	.date {
+		font-size: 75px;
+		font-weight: 600;
+		color: #000;
+	}
+
+	.today {
+		font-size: 18px;
+		font-weight: 600;
+		color: rgba(104, 100, 111, 0.75);
+	}
+
+	.agenda-item {
+		width: 100%;
+		background: linear-gradient(
+			90deg,
+			rgba(186, 154, 234, 0.25) 0%,
+			rgba(153, 116, 209, 0.25) 100%
+		);
+		border-radius: 4px;
+		padding: 4px 0 7px 10px; /* Increased padding-left to 14px for 2px space */
+		position: relative;
+		margin-top: 8px;
+	}
+
+	.agenda-item::before {
+		content: '';
+		width: 3px;
+		height: 100%;
+		background-color: #9974d1;
+		position: absolute;
+		top: 0;
+		left: 0;
+		border-radius: 99px;
+	}
+
+	.agenda-item-title {
+		font-size: 20px;
+		font-weight: 500;
+		color: #9974d1;
+	}
+
+	.agenda-item-time {
+		font-size: 14px;
+		margin-top: 2px;
+		color: #9974d1;
+	}
+
+	.agenda-item-2 {
+		margin-top: 10px;
+		position: relative;
+		color: #68646f73;
+	}
+
+	.agenda-item-2::before {
+		content: '';
+		position: absolute;
+		width: 3px;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background-color: #36a9e9;
+		border-radius: 99px;
+	}
+
+	.agenda-item-title-2 {
+		padding-left: 10px;
+		font-weight: 400;
 	}
 </style>

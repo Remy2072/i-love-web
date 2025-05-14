@@ -11,7 +11,7 @@
 			<span style="color: {dotColor};">·</span> FDND
 		</p>
 	</div>
-	<img src="/img/memoji.png" alt="svg van zelfportret" />
+	<img src="/img/memoji.png" alt="Zelfportret van Remy Duivesteijn" />
 </article>
 
 <style>
