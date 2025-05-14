@@ -73,7 +73,10 @@
 		style="text-decoration: none; color: inherit;"
 	>
 		<div class="container-1">
-			<h2>{isPlaying ? 'Nu aan het luisteren' : 'Onlangs beluisterd'}</h2>
+			<div class="header-container">
+				<h2>{isPlaying ? 'Nu aan het luisteren' : 'Onlangs beluisterd'}</h2>
+				<div class="status-dot {isPlaying ? 'active' : ''}"></div>
+			</div>
 			<strong>{track.track.name}</strong>
 			<span>{track.track.artists[0].name}</span>
 		</div>
@@ -83,7 +86,7 @@
 				src={track.track.album.images[0].url}
 				alt={track.track.name}
 			/>
-			<img class="img-2" src="/img/record.png" alt="record" />
+			<img class="img-2 {isPlaying ? 'spinning' : ''}" src="/img/record.png" alt="record" />
 		</div>
 	</a>
 {/if}
@@ -123,10 +126,31 @@
 		gap: 5px;
 	}
 
+	.header-container {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+	}
+
+	.status-dot {
+		width: 7px;
+		height: 7px;
+		border-radius: 50%;
+		background-color: #bdbdc3;
+		transition: background-color 0.3s ease;
+		margin-top: 3px;
+	}
+
+	.status-dot.active {
+		background-color: #2ecc71;
+		box-shadow: 0 0 8px #2ecc71;
+	}
+
 	h2 {
 		font-size: 1rem;
 		font-weight: var(--font-weight-medium);
 		color: var(--dusty-lavender);
+		transition: color 0.3s ease;
 	}
 
 	strong,
@@ -184,6 +208,16 @@
 		animation: spin 5s linear infinite;
 	}
 
+	.img-2 {
+		position: absolute;
+		width: 95px;
+		height: 95px;
+	}
+
+	.img-2.spinning {
+		animation: spin 5s linear infinite;
+	}
+
 	@keyframes spin {
 		from {
 			transform: rotate(0deg);
@@ -198,15 +232,7 @@
 			width: 60px;
 			height: 60px;
 		}
-	}
 
-	.img-2 {
-		position: absolute;
-		width: 95px;
-		height: 95px;
-	}
-
-	@media (min-width: 900px) {
 		.img-2 {
 			width: 110px;
 			height: 110px;
