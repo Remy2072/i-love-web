@@ -4,9 +4,9 @@
 
 <section class="grid">
 	<Info />
+	<Agenda />
 	<Maps />
 	<Socials />
-	<Agenda />
 	<Skills />
 </section>
 
