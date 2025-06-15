@@ -45,4 +45,39 @@
 		transform: translateY(-52%);
 		left: 66%;
 	}
+	@media (min-width: 900px) {
+		.profile-card {
+			display: flex;
+			flex-direction: row;
+			align-items: flex-start;
+			justify-content: space-between;
+			position: relative;
+			padding: 45px 200px 45px 45px;
+		}
+
+		.profile-card h1 {
+			position: absolute;
+			top: 22px;
+			right: 25px;
+			margin: 0;
+			font-size: 1rem;
+		}
+
+		.profile-card p {
+			flex: 2;
+			font-size: 1.2rem;
+		}
+
+		@media (min-width: 900px) {
+			.profile-card img {
+				position: absolute;
+				width: 208px;
+				height: 207px;
+				top: auto;
+				transform: none;
+				bottom: 0;
+				left: 66%;
+			}
+		}
+	}
 </style>

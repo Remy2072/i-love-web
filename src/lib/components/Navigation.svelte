@@ -57,7 +57,7 @@
 		bottom: 0;
 		width: 100%;
 		padding-bottom: 1.25rem;
-		z-index: 2;
+		z-index: 12;
 	}
 
 	header::before {
