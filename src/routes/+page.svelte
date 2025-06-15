@@ -64,15 +64,6 @@
 			webLink: '../journal/sprint19',
 			inputText: 'Naar documentatie',
 			emoji: '🆓'
-		},
-		{
-			number: 'Sprint 20',
-			name: 'Final Sprint',
-			firstDay: '14 Apr t/m ',
-			lastDay: '04 Jul.',
-			webLink: '../journal/sprint20',
-			inputText: 'Naar documentatie',
-			emoji: '🏆'
 		}
 	].reverse();
 </script>

@@ -15,7 +15,7 @@
 		background: var(--gradient-hero);
 		position: relative;
 		color: #6e6e84bf;
-		padding: 20px;
+		padding: 1.25rem;
 		border-radius: 1.25rem;
 		width: 100%;
 		box-shadow: var(--box-shadow-card);
@@ -52,7 +52,7 @@
 			align-items: flex-start;
 			justify-content: space-between;
 			position: relative;
-			padding: 45px 200px 45px 45px;
+			padding: 2.813rem 12.5rem 2.813rem 2.813rem;
 		}
 
 		.profile-card h1 {

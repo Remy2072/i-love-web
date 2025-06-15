@@ -73,7 +73,7 @@
 		box-shadow: var(--box-shadow-card);
 		background: linear-gradient(149deg, rgba(255, 255, 255, 1) 0%, rgba(237, 241, 242, 1) 100%);
 		border-radius: var(--border-radius);
-		padding: 35px;
+		padding: 2.188rem;
 	}
 
 	.calendar-date {
@@ -82,20 +82,20 @@
 
 	.calendar-date span {
 		display: block;
-		font-size: 18px;
+		font-size: 1.125rem;
 		font-weight: 700;
 		color: var(--color-secondary);
 	}
 
 	.calendar-date strong {
 		display: block;
-		font-size: 75px;
+		font-size: 4.688rem;
 		font-weight: 600;
 		color: #000;
 	}
 
 	.calendar-widget h2 {
-		font-size: 18px;
+		font-size: 1.125rem;
 		font-weight: 600;
 		color: rgba(104, 100, 111, 0.75);
 	}
@@ -115,7 +115,7 @@
 		position: absolute;
 		top: 0;
 		left: 0;
-		border-radius: 99px;
+		border-radius: 6.188rem;
 	}
 
 	.calandar-event-wrapper {
@@ -129,7 +129,7 @@
 	}
 
 	.calendar-event h3 {
-		font-size: 20px;
+		font-size: 1.25rem;
 		font-weight: 500;
 		color: var(--color-primary);
 	}
@@ -155,7 +155,7 @@
 		top: 0;
 		left: 0;
 		background-color: #36a9e9;
-		border-radius: 99px;
+		border-radius: 6.188rem;
 	}
 
 	.calendar-summary p {

@@ -25,10 +25,10 @@
 		border-radius: 1.25rem;
 		box-shadow: var(--box-shadow-card);
 		width: 100%;
-		padding: 20px;
+		padding: 1.25rem;
 		position: relative;
 		overflow: hidden;
-		height: 300px;
+		height: 18.75rem;
 	}
 
 	@media (min-width: 900px) {
@@ -41,11 +41,11 @@
 		display: grid;
 		place-items: center;
 		text-align: center;
-		padding: 30px 30px;
+		padding: 1.875rem;
 	}
 
 	.heading h3 {
-		font-size: 18px;
+		font-size: 1.125rem;
 		color: rgba(110, 110, 132, 0.4);
 	}
 
@@ -61,8 +61,8 @@
 	.tool-card {
 		background: linear-gradient(120deg, hsla(192, 16%, 94%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
 		border-radius: 10px;
-		width: 120px;
-		height: 115px;
+		width: 7.5rem;
+		height: 7.188rem;
 		position: absolute;
 		box-shadow: var(--box-shadow-card);
 

@@ -97,6 +97,7 @@
 		justify-content: center;
 		border-radius: var(--border-radius);
 		width: 100%;
+		min-height: 18.75rem;
 		box-shadow: var(--box-shadow-card);
 		z-index: 1;
 	}
@@ -104,8 +105,8 @@
 	.map-view {
 		width: 100%;
 		height: 100%;
-		min-width: 200px;
-		min-height: 200px;
+		min-width: 12.5rem;
+		min-height: 12.5rem;
 		cursor: pointer;
 		border-radius: var(--border-radius);
 		box-shadow: var(--box-shadow-card);

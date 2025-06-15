@@ -3,52 +3,52 @@
 
 	const cardData = [
 		{
-			sprintNumber: 'HvA | FDND',
-			sprintName: 'We Love Web',
-			firstDay: '2024 - 2025',
-			webLink: '',
+			sprintNumber: 'Hypersolid',
+			sprintName: 'Heineken Kalender',
+			firstDay: '2025',
+			webLink: 'https://www.heinekenhoreca.nl/',
 			inputText: 'Naar project',
-			emoji: '❤️'
+			emoji: '🍺'
+		},
+		{
+			sprintNumber: 'Personal',
+			sprintName: 'Tic-tac-toe',
+			firstDay: '2025',
+			webLink: 'https://tic-tac-toe-chi-lilac.vercel.app/',
+			inputText: 'Naar project',
+			emoji: '⭕'
+		},
+		{
+			sprintNumber: 'Triple',
+			sprintName: 'Pokedex',
+			firstDay: '2025',
+			webLink: 'https://pokemon-app-seven-pied.vercel.app/en',
+			inputText: 'Naar project',
+			emoji: '🐦‍🔥'
 		},
 		{
 			sprintNumber: 'FDND',
-			sprintName: 'Profiel card',
-			firstDay: '2024',
-			webLink: '',
+			sprintName: 'We Love Web',
+			firstDay: '2025',
+			webLink: 'https://weloveweb.agency.fdnd.nl/',
 			inputText: 'Naar project',
-			emoji: '🙋🏻‍♂️'
+			emoji: '❤️'
 		},
 		{
 			sprintNumber: 'DEPT®',
 			sprintName: 'Weather Planner',
 			firstDay: '2024',
-			webLink: '',
+			webLink: 'https://proof-of-concept-dg2v.onrender.com/',
 			inputText: 'Naar project',
 			emoji: '☀️'
 		},
 		{
 			sprintNumber: 'Funda',
-			sprintName: 'Gezamenlijke lijst',
+			sprintName: 'Gezamenlijke Lijst',
 			firstDay: '2024',
-			webLink: '',
+			webLink: 'https://pleasurable-ui-qxxg.onrender.com/',
 			inputText: 'Naar project',
 			emoji: '🏠'
-		},
-		{
-			sprintNumber: 'Endeavour',
-			sprintName: 'Parley',
-			firstDay: '2023',
-			webLink: '',
-			inputText: 'Naar project',
-			emoji: '😁'
-		},
-		{
-			sprintNumber: 'Mediacollege',
-			sprintName: 'Ecosy',
-			firstDay: '2021',
-			webLink: '',
-			inputText: 'Naar project',
-			emoji: '♻️'
 		}
 	];
 </script>

@@ -34,14 +34,7 @@
 			inputText: 'Naar documentatie',
 			emoji: '💛'
 		},
-		{
-			sprintNumber: 'We 💚 Web | Sprint 17',
-			sprintName: 'Justus Sturkenboom',
-			firstDay: '13 Dec. 2024',
-			webLink: '../lectures/lecture5',
-			inputText: 'Naar documentatie',
-			emoji: '💚'
-		},
+
 		{
 			sprintNumber: 'We 🩵 Web | Sprint 18',
 			sprintName: 'Dave Bitter',
@@ -50,14 +43,7 @@
 			inputText: 'Naar documentatie',
 			emoji: '🩵'
 		},
-		{
-			sprintNumber: 'We 💙 Web | Sprint 19',
-			sprintName: 'Kilian Valkhof',
-			firstDay: '14 Feb. 2025',
-			webLink: '../lectures/lecture7',
-			inputText: 'Naar documentatie',
-			emoji: '💙'
-		},
+
 		{
 			sprintNumber: 'We 💜 Web | Sprint 19',
 			sprintName: 'Cassie Evans',
@@ -65,38 +51,6 @@
 			webLink: '../lectures/lecture8',
 			inputText: 'Naar documentatie',
 			emoji: '💜'
-		},
-		{
-			sprintNumber: 'We 🤎 Web | Sprint 19',
-			sprintName: '...',
-			firstDay: '2025',
-			webLink: '',
-			inputText: 'Naar documentatie',
-			emoji: '🤎'
-		},
-		{
-			sprintNumber: 'We 🖤 Web | Sprint 20',
-			sprintName: '...',
-			firstDay: '2025',
-			webLink: '',
-			inputText: 'Naar documentatie',
-			emoji: '🖤'
-		},
-		{
-			sprintNumber: 'We 🩶 Web | Sprint 20',
-			sprintName: '...',
-			firstDay: '2025',
-			webLink: '',
-			inputText: 'Naar documentatie',
-			emoji: '🩶'
-		},
-		{
-			sprintNumber: 'We 🤍 Web | Sprint 20',
-			sprintName: '...',
-			firstDay: '2025',
-			webLink: '',
-			inputText: 'Naar documentatie',
-			emoji: '🤍'
 		}
 	];
 </script>
