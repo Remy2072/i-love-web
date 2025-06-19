@@ -1,12 +1,16 @@
 <header class="profile-card">
 	<h1>Hallo daar! 👋🏼</h1>
 	<p>
-		Ik ben <mark>Remy Duivesteijn,</mark> een front-end developer en designer uit
-		<mark>Amsterdam.</mark> Op dit moment zit ik in het laatste jaar van mijn opleiding
-		<mark>FDND</mark> en loop ik stage bij <mark>Hypersolid</mark> in Alkmaar. Ik ben
-		gespecialiseerd in <mark>front-end development</mark> van het ontwerpen tot bouwen van websites en
-		webapplicaties.
+		Ik ben <mark>Remy Duivesteijn,</mark> een creatieve frontend developer & designer uit
+		<mark>Amsterdam.</mark>
+		Ik heb een passie voor alles wat digitaal is. Ik ontwerp en bouw websites die niet alleen
+		<mark>snel</mark>
+		en
+		<mark>gebruiksvriendelijk</mark>
+		zijn, maar er ook nog eens strak uitzien ✨. Wil je meer weten over mij of mijn werk? Stuur me gerust
+		een <mark>berichtje</mark> 💬.
 	</p>
+
 	<img src="/img/memoji.png" alt="Zelfportret van Remy Duivesteijn" />
 </header>
 

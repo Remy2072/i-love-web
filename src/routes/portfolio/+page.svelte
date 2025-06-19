@@ -3,26 +3,26 @@
 
 	const cardData = [
 		{
-			sprintNumber: 'Hypersolid',
-			sprintName: 'Heineken Kalender',
+			sprintNumber: 'Heineken',
+			sprintName: 'Kalender',
 			firstDay: '2025',
-			webLink: 'https://www.heinekenhoreca.nl/',
+			webLink: '../projects/heineken',
 			inputText: 'Naar project',
-			emoji: '🍺'
+			emoji: '🗓️'
 		},
 		{
 			sprintNumber: 'Personal',
 			sprintName: 'Tic-tac-toe',
 			firstDay: '2025',
-			webLink: 'https://tic-tac-toe-chi-lilac.vercel.app/',
+			webLink: '../projects/tic-tac-toe',
 			inputText: 'Naar project',
 			emoji: '⭕'
 		},
 		{
-			sprintNumber: 'Triple',
+			sprintNumber: 'Hypersolid',
 			sprintName: 'Pokedex',
 			firstDay: '2025',
-			webLink: 'https://pokemon-app-seven-pied.vercel.app/en',
+			webLink: '../projects/pokedex',
 			inputText: 'Naar project',
 			emoji: '🐦‍🔥'
 		},
@@ -30,7 +30,7 @@
 			sprintNumber: 'FDND',
 			sprintName: 'We Love Web',
 			firstDay: '2025',
-			webLink: 'https://weloveweb.agency.fdnd.nl/',
+			webLink: '../projects/we-love-web',
 			inputText: 'Naar project',
 			emoji: '❤️'
 		},
@@ -38,7 +38,7 @@
 			sprintNumber: 'DEPT®',
 			sprintName: 'Weather Planner',
 			firstDay: '2024',
-			webLink: 'https://proof-of-concept-dg2v.onrender.com/',
+			webLink: '../projects/dept',
 			inputText: 'Naar project',
 			emoji: '☀️'
 		},
@@ -46,7 +46,7 @@
 			sprintNumber: 'Funda',
 			sprintName: 'Gezamenlijke Lijst',
 			firstDay: '2024',
-			webLink: 'https://pleasurable-ui-qxxg.onrender.com/',
+			webLink: '../projects/funda',
 			inputText: 'Naar project',
 			emoji: '🏠'
 		}
