@@ -46,6 +46,7 @@
 
 	.heading h3 {
 		font-size: 1.125rem;
+		font-weight: 400;
 		color: rgba(110, 110, 132, 0.4);
 	}
 

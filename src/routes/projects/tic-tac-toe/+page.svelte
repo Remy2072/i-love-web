@@ -4,13 +4,98 @@
 		<h1>Tic Tac Toe</h1>
 		<small>Personal</small>
 	</div>
-
 	<img src="/img/tictactoe.png" alt="" />
 
+	<h3>Bekjik hier</h3>
+	<a href="https://github.com/Remy2072/funda-favourites">Github</a>
 	<a href="https://remy-tic-tac-toe.vercel.app/">Live omgeving</a>
+	<h3>Tech-stack</h3>
+	<ul class="tech-stack">
+		<li class="tech-stack-list react">React</li>
+		<li class="tech-stack-list html">HTML</li>
+		<li class="tech-stack-list css">CSS</li>
+		<li class="tech-stack-list js">JavaScript</li>
+		<li class="tech-stack-list node">Node</li>
+	</ul>
+	<h3>Het project</h3>
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia dolor vitae ligula
+		vestibulum, vel vestibulum neque aliquet. Donec a libero lacus. Curabitur ornare volutpat
+		hendrerit. Aliquam malesuada nisi enim, eu bibendum turpis posuere id. Sed ornare hendrerit
+		lacus. Nam iaculis enim dui, at facilisis tortor convallis ut. Proin augue elit, tristique a
+		turpis id, volutpat tincidunt nunc. Integer purus risus, fringilla vitae sapien ut, accumsan
+		malesuada libero. Cras molestie aliquet nibh, ac fermentum velit tristique vel. Suspendisse sit
+		amet porta dolor. Praesent nec metus luctus, laoreet arcu in, volutpat elit.
+	</p>
 </div>
 
 <style>
+	.tech-stack {
+		margin-top: 0.5rem;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+		align-items: center;
+		list-style: none;
+		padding: 0;
+	}
+
+	.tech-stack-list {
+		font-size: 1rem;
+		border-radius: 10rem;
+		padding: 0.1rem 1rem;
+		font-size: 1.25rem;
+		margin-bottom: 0;
+	}
+
+	.html {
+		background-color: #f16f4d;
+		color: #ffffff;
+	}
+
+	.css {
+		background-color: #489bef;
+		color: #ffffff;
+	}
+
+	.js {
+		background-color: #fff68f;
+		color: #333333;
+	}
+
+	.node {
+		background-color: #67b26f;
+		color: #ffffff;
+	}
+
+	.ejs {
+		background-color: #b08dff;
+		color: #ffffff;
+	}
+
+	.figma {
+		background-color: #ff9073;
+		color: #ffffff;
+	}
+
+	.react {
+		background-color: #80d8ff;
+		color: #0d1c2f;
+	}
+	.sveltekit {
+		background-color: #ff9373;
+		color: #ffffff;
+	}
+	.ts {
+		background-color: #7daeff;
+		color: #0d1c2f;
+	}
+
+	.next {
+		background-color: #e2e2e2;
+		color: #0d1c2f;
+	}
+
 	* {
 		font-size: 1.125rem;
 		line-height: 1.5;
@@ -71,11 +156,6 @@
 		font-weight: 300;
 	}
 
-	h2 {
-		margin-top: 1.875rem;
-		font-size: 1.563rem;
-	}
-
 	h3 {
 		margin-top: 1.25rem;
 		font-size: 1.125rem;
@@ -117,8 +197,8 @@
 			font-size: 3.125rem;
 		}
 
-		h2 {
-			font-size: 1.563rem;
+		.tech-stack {
+			flex-wrap: nowrap;
 		}
 	}
 
