@@ -6,7 +6,6 @@
 
 	function updateIndicator(target) {
 		if (navMarker && target) {
-			// Always get the parent <a> in case the span is clicked
 			const linkElement = target.closest('a');
 			if (linkElement) {
 				navMarker.style.left = `${linkElement.offsetLeft}px`;

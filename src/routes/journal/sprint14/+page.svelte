@@ -36,8 +36,8 @@
 	</ul>
 	<h2>Repositories</h2>
 	<ul>
-		<li><a href="https://github.com/Remy2072/fdnd">FDND We Love Web</a></li>
-		<li><a href="https://github.com/Remy2072/i-love-web">i-love-web</a></li>
+		<li><a href="https://github.com/Remy2072/fdnd" target="_blank">FDND We Love Web</a></li>
+		<li><a href="https://github.com/Remy2072/i-love-web" target="_blank">i-love-web</a></li>
 	</ul>
 	<h2>Week 1 | 23 t/m 27 september</h2>
 	<p style="margin-top: 1.25rem;">
@@ -284,9 +284,9 @@
 	<h3>Frontend ontwikkelingen</h3>
 	<p>Dit zijn de websites die ik gebruik om up to date te zijn met het web.</p>
 	<ul>
-		<li><a href="https://dev.to/">Dev.to</a></li>
-		<li><a href="https://www.reddit.com/r/Frontend/?rdt=58073">Reddit</a></li>
-		<li><a href="https://css-tricks.com/">CSS-tricks</a></li>
+		<li><a href="https://dev.to" target="_blank">Dev.to</a></li>
+		<li><a href="https://www.reddit.com/r/Frontend/?rdt=58073" target="_blank">Reddit</a></li>
+		<li><a href="https://css-tricks.com" target="_blank">CSS-tricks</a></li>
 	</ul>
 </div>
 

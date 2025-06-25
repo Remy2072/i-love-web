@@ -60,7 +60,7 @@
 		elk element op je site een animatie hebben?
 	</p>
 
-	<a style="margin-top: 10px;" href="https://www.dionpieters.dev/">Portfolio</a>
+	<a style="margin-top: 10px;" href="https://www.dionpieters.dev" target="_blank">Portfolio</a>
 </div>
 
 <style>

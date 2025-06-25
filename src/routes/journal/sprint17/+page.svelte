@@ -28,8 +28,8 @@
 	</ul>
 	<h2>Repositories</h2>
 	<ul>
-		<li><a href="https://github.com/Remy2072/user-needs">User Needs</a></li>
-		<li><a href="https://github.com/Remy2072/i-love-web">i-love-web</a></li>
+		<li><a href="https://github.com/Remy2072/user-needs" target="_blank">User Needs</a></li>
+		<li><a href="https://github.com/Remy2072/i-love-web" target="_blank">i-love-web</a></li>
 	</ul>
 	<h2>Week 1 | 02 t/m 06 december</h2>
 	<p style="margin-top: 1.25rem;">
@@ -83,7 +83,7 @@
 	<a
 		style="margin-top: 1rem;"
 		href="https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API"
-		>MDN View Transitions</a
+		target="_blank">MDN View Transitions</a
 	>
 
 	<h3>Kleur modellen</h3>
@@ -149,7 +149,9 @@
 		<li>
 			<strong>WCAG3</strong> is bezig met een nieuw contrast systeem genaamd
 			<strong
-				><a href="https://typefully.com/DanHollick/wcag-3-and-apca-sle13GMW2Brp">APCA</a></strong
+				><a href="https://typefully.com/DanHollick/wcag-3-and-apca-sle13GMW2Brp" target="_blank"
+					>APCA</a
+				></strong
 			>, dat ervoor moet zorgen dat mensen nog beter een contrastverschil kunnen berekenen.
 		</li>
 	</ul>

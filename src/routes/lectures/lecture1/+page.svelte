@@ -13,7 +13,7 @@
 	</ul>
 
 	<h3>Het nut van onzin:</h3>
-	<a href="https://lovenonsense.com">Lovenonsense</a>
+	<a href="https://lovenonsense.com" target="_blank">Lovenonsense</a>
 
 	<h3>Waarom het web zo geweldig is:</h3>
 	<ul>
@@ -47,7 +47,7 @@
 		<li>Screen readers lezen alles voor, dus maak het wat levendiger en interessanter.</li>
 	</ul>
 
-	<a href="https://vasilis.nl/">Portfolio</a>
+	<a href="https://vasilis.nl/" target="_blank">Portfolio</a>
 </div>
 
 <style>

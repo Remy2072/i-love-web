@@ -33,11 +33,11 @@
 	<h2>Repositories</h2>
 	<ul>
 		<li>
-			<a href="https://github.com/fdnd-task/dont-repeat-yourself-component-library"
+			<a href="https://github.com/fdnd-task/dont-repeat-yourself-component-library" target="_blank"
 				>Component Libary</a
 			>
 		</li>
-		<li><a href="https://github.com/Remy2072/i-love-web">i-love-web</a></li>
+		<li><a href="https://github.com/Remy2072/i-love-web" target="_blank">i-love-web</a></li>
 	</ul>
 	<h2>Week 1 | 11 t/m 15 november</h2>
 	<p style="margin-top: 1.25rem;">
@@ -126,10 +126,15 @@
 	<ul>
 		<li>
 			Evolutie in OpenType-fonts: Eén bestand voor variaties in breedte, gewicht, stijl <a
-				href="https://variablefonts.io">variablefonts.io</a
+				href="https://variablefonts.io"
+				target="_blank">variablefonts.io</a
 			>
 		</li>
-		<li>Check of je font variabel is: <a href="https://wakamaifondue.com">wakamaifondue.com</a></li>
+		<li>
+			Check of je font variabel is: <a href="https://wakamaifondue.com" target="_blank"
+				>wakamaifondue.com</a
+			>
+		</li>
 	</ul>
 	<h3>Visuele Hiërarchie</h3>
 	<ul>

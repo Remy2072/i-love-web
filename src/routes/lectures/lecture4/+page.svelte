@@ -100,7 +100,7 @@
 		<p>Maak het internet weer leuk.</p>
 		<p>Jullie kunnen dit – jullie zitten op de juiste plek!</p>
 	</div>
-	<a style="margin-top: 10px;" href="https://emielvanbetsbrugge.be/">Portfolio</a>
+	<a style="margin-top: 10px;" href="https://emielvanbetsbrugge.be" target="_blank">Portfolio</a>
 </div>
 
 <style>

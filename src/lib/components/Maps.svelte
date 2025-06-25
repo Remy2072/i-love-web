@@ -51,7 +51,6 @@
 			.bindPopup(LOCATION.name)
 			.openPopup();
 
-		// Force map to recalculate its container's size
 		requestAnimationFrame(() => {
 			leafletMap.invalidateSize();
 		});
@@ -71,6 +70,12 @@
 		bind:this={mapContainer}
 		class="map-view"
 		on:click={navigateToGoogleMaps}
+		on:keydown={(e) => {
+			if (e.key === 'Enter' || e.key === ' ') {
+				e.preventDefault();
+				navigateToGoogleMaps();
+			}
+		}}
 		role="button"
 		tabindex="0"
 		aria-label={`View ${LOCATION.name} on Google Maps`}
@@ -78,12 +83,10 @@
 </section>
 
 <style>
-	/* Hide Leaflet attribution */
 	:global(.leaflet-control-container .leaflet-bottom.leaflet-right) {
 		display: none;
 	}
 
-	/* Custom marker styles */
 	:global(.map-marker) {
 		background: none;
 		border: none;

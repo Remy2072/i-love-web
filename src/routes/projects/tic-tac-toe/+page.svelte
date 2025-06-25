@@ -4,11 +4,10 @@
 		<h1>Tic Tac Toe</h1>
 		<small>Personal</small>
 	</div>
-	<img src="/img/tictactoe.png" alt="" />
-
+	<img src="/img/tictactoe.png" alt="Screenshot van tic tac toe pagina" />
 	<h3>Bekjik hier</h3>
-	<a href="https://github.com/Remy2072/funda-favourites">Github</a>
-	<a href="https://remy-tic-tac-toe.vercel.app/">Live omgeving</a>
+	<a href="https://github.com/Remy2072/tic-tac-toe" target="_blank">Github</a>
+	<a href="https://remy-tic-tac-toe.vercel.app" target="_blank">Live omgeving</a>
 	<h3>Tech-stack</h3>
 	<ul class="tech-stack">
 		<li class="tech-stack-list react">React</li>
@@ -19,13 +18,13 @@
 	</ul>
 	<h3>Het project</h3>
 	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia dolor vitae ligula
-		vestibulum, vel vestibulum neque aliquet. Donec a libero lacus. Curabitur ornare volutpat
-		hendrerit. Aliquam malesuada nisi enim, eu bibendum turpis posuere id. Sed ornare hendrerit
-		lacus. Nam iaculis enim dui, at facilisis tortor convallis ut. Proin augue elit, tristique a
-		turpis id, volutpat tincidunt nunc. Integer purus risus, fringilla vitae sapien ut, accumsan
-		malesuada libero. Cras molestie aliquet nibh, ac fermentum velit tristique vel. Suspendisse sit
-		amet porta dolor. Praesent nec metus luctus, laoreet arcu in, volutpat elit.
+		Op mijn afgelopen stage kwam ik in een project waar react als framework werd gebruikt. Ik had
+		nog nooit met React gewerkt, dus ik besloot om een klein project te maken om de basis van React
+		te leren. Ik heb gekozen voor de klassieker Tic Tac Toe. Het project is volledig opgebouwd met
+		React en is een leuke manier om de basisprincipes van React te leren. Het project bevat een
+		eenvoudige gebruikersinterface en maakt gebruik van state management om de voortgang van het
+		spel bij te houden. Het is een geweldige manier om te leren werken met componenten, props en
+		state in React.
 	</p>
 </div>
 
@@ -68,31 +67,8 @@
 		color: #ffffff;
 	}
 
-	.ejs {
-		background-color: #b08dff;
-		color: #ffffff;
-	}
-
-	.figma {
-		background-color: #ff9073;
-		color: #ffffff;
-	}
-
 	.react {
 		background-color: #80d8ff;
-		color: #0d1c2f;
-	}
-	.sveltekit {
-		background-color: #ff9373;
-		color: #ffffff;
-	}
-	.ts {
-		background-color: #7daeff;
-		color: #0d1c2f;
-	}
-
-	.next {
-		background-color: #e2e2e2;
 		color: #0d1c2f;
 	}
 

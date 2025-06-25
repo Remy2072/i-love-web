@@ -4,10 +4,10 @@
 		<h1>Gezamelijke lijst</h1>
 		<small>Funda</small>
 	</div>
-	<img src="/img/favorieten.png" alt="" />
+	<img src="/img/favorieten.png" alt="Screenshot van de favorieten pagina" />
 	<h3>Bekjik hier</h3>
-	<a href="https://github.com/Remy2072/funda-favourites">Github</a>
-	<a href="https://funda-favourites.onrender.com/">Live omgeving</a>
+	<a href="https://github.com/Remy2072/funda-favourites" target="_blank">Github</a>
+	<a href="https://funda-favourites.onrender.com/" target="_blank">Live omgeving</a>
 	<h3>Tech-stack</h3>
 	<ul class="tech-stack">
 		<li class="tech-stack-list ejs">EJS</li>
@@ -19,13 +19,13 @@
 	</ul>
 	<h3>Het project</h3>
 	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia dolor vitae ligula
-		vestibulum, vel vestibulum neque aliquet. Donec a libero lacus. Curabitur ornare volutpat
-		hendrerit. Aliquam malesuada nisi enim, eu bibendum turpis posuere id. Sed ornare hendrerit
-		lacus. Nam iaculis enim dui, at facilisis tortor convallis ut. Proin augue elit, tristique a
-		turpis id, volutpat tincidunt nunc. Integer purus risus, fringilla vitae sapien ut, accumsan
-		malesuada libero. Cras molestie aliquet nibh, ac fermentum velit tristique vel. Suspendisse sit
-		amet porta dolor. Praesent nec metus luctus, laoreet arcu in, volutpat elit.
+		Funda kwam naar onze school als opdrachtgever voor een project. Het doel was om een gezamenlijke
+		lijst te maken waarin gezinnen hun favoriete woningen konden delen. Het project bestond uit een
+		frontend en een backend. De frontend is gebouwd met EJS, HTML, CSS en JavaScript, terwijl de
+		backend is gebouwd met een api call vanuit directus. Op de site kan je woningen toevoegen,
+		bewerken en verwijderen. Ook kan je woningen toevoegen aan je favorieten lijst. De applicatie is
+		volledig responsive en werkt soepel op zowel desktop als mobiele apparaten. Iedereen kan
+		individueel een rating geven aan de woningen en deze worden opgeslagen in de database.
 	</p>
 </div>
 

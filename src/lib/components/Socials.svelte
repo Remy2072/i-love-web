@@ -91,7 +91,6 @@
 		transform: scale(0.8) translateY(-37.5%);
 	}
 
-	/* Label styling */
 	.label {
 		position: absolute;
 		left: 50%;
@@ -110,7 +109,6 @@
 		opacity: 1;
 	}
 
-	/* Platform-specific styles */
 	.social-link[data-platform='linkedin'] {
 		background: linear-gradient(149deg, rgb(0, 102, 152) 0%, rgb(0, 102, 152) 100%);
 	}
@@ -127,7 +125,6 @@
 		background: linear-gradient(149deg, rgb(237, 241, 242) 0%, rgb(255, 255, 255) 100%);
 	}
 
-	/* Email-specific text color */
 	.social-link[data-platform='email'] .label {
 		color: #333;
 	}

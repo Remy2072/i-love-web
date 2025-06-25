@@ -29,11 +29,11 @@
 	<h2>Repositories</h2>
 	<ul>
 		<li>
-			<a href="https://github.com/Remy2072/choices-choices-the-tech-stack"
+			<a href="https://github.com/Remy2072/choices-choices-the-tech-stack" target="_blank"
 				>Choices-choices-the-tech-stack</a
 			>
 		</li>
-		<li><a href="https://github.com/Remy2072/i-love-web">i-love-web</a></li>
+		<li><a href="https://github.com/Remy2072/i-love-web" target="_blank">i-love-web</a></li>
 	</ul>
 	<h2>Week 1 | 14 t/m 18 oktober</h2>
 	<p style="margin-top: 1.25rem;">
@@ -214,7 +214,7 @@
 		Het enige verschil wat ik tot nu toe echt heb gemerkt is dat je de exports iets anders doet. In
 		svelte gebruik je een script tag. In Astro gebruik je - - - om je exports in te zetten.
 	</p>
-	<a href="https://github.com/Remy2072/justify-your-tech-stack/wiki"
+	<a href="https://github.com/Remy2072/justify-your-tech-stack/wiki" target="_blank"
 		>Bekijk de repo voor meer info</a
 	>
 	<h3>Mentor dag week 3</h3>

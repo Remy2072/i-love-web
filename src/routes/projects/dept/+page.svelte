@@ -6,8 +6,8 @@
 	</div>
 	<img src="/img/weer.png" alt="Foto van de Planner" />
 	<h3>Bekjik hier</h3>
-	<a href="https://github.com/Remy2072/dept-weather-planner">Github</a>
-	<a href="https://dept-weather-planner.onrender.com/">Live omgeving</a>
+	<a href="https://github.com/Remy2072/dept-weather-planner" target="_blank">Github</a>
+	<a href="https://dept-weather-planner.onrender.com/" target="_blank">Live omgeving</a>
 	<h3>Tech-stack</h3>
 	<ul class="tech-stack">
 		<li class="tech-stack-list ejs">EJS</li>
@@ -19,13 +19,12 @@
 	</ul>
 	<h3>Het project</h3>
 	<p>
-		De DEPT® Weather Planner is een project dat ik heb gemaakt tijdens mijn opleiding bij FDND
-		vestibulum, vel vestibulum neque aliquet. Donec a libero lacus. Curabitur ornare volutpat
-		hendrerit. Aliquam malesuada nisi enim, eu bibendum turpis posuere id. Sed ornare hendrerit
-		lacus. Nam iaculis enim dui, at facilisis tortor convallis ut. Proin augue elit, tristique a
-		turpis id, volutpat tincidunt nunc. Integer purus risus, fringilla vitae sapien ut, accumsan
-		malesuada libero. Cras molestie aliquet nibh, ac fermentum velit tristique vel. Suspendisse sit
-		amet porta dolor. Praesent nec metus luctus, laoreet arcu in, volutpat elit.
+		De DEPT® Weather Planner is een project dat ik heb gemaakt tijdens mijn opleiding bij FDND. Ik
+		kreeg de opdracht van DEPT® om een Weather Planner te ontwikkelen. Het doel van dit project was
+		om een planner te maken die gebruikers helpt bij het plannen van hun activiteiten op basis van
+		het weer. De planner maakt gebruik van de eigen API van DEPT® om actuele weersinformatie op te
+		halen, en biedt gebruikers de mogelijkheid om hun planning af te stemmen op de
+		weersomstandigheden.
 	</p>
 </div>
 

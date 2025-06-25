@@ -132,8 +132,8 @@
 
 		<h3>Bronnen</h3>
 		<ul>
-			<li><a href="https://www.davebitter.com/">Portfolio</a></li>
-			<li><a href="https://techhub.iodigital.com/">IO Techhub</a></li>
+			<li><a href="https://www.davebitter.com" target="_blank">Portfolio</a></li>
+			<li><a href="https://techhub.iodigital.com" target="_blank">IO Techhub</a></li>
 		</ul>
 	</div>
 </div>

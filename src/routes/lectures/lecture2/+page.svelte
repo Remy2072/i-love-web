@@ -41,7 +41,7 @@
 		<li>Wees bereid er veel tijd in te steken.</li>
 	</ul>
 
-	<a href="https://nico.computer/">Portfolio</a>
+	<a href="https://nico.computer/" target="_blank">Portfolio</a>
 </div>
 
 <style>

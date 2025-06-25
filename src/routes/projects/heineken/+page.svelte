@@ -13,7 +13,6 @@
 			default
 		/>
 	</video>
-
 	<em class="note">
 		Helaas, dit project staat in een privé-repository en is alleen zichtbaar voor gebruikers met een
 		Heineken-account.
@@ -76,18 +75,8 @@
 		color: #ffffff;
 	}
 
-	.js {
-		background-color: #fff68f;
-		color: #333333;
-	}
-
 	.node {
 		background-color: #67b26f;
-		color: #ffffff;
-	}
-
-	.ejs {
-		background-color: #b08dff;
 		color: #ffffff;
 	}
 
@@ -100,10 +89,7 @@
 		background-color: #80d8ff;
 		color: #0d1c2f;
 	}
-	.sveltekit {
-		background-color: #ff9373;
-		color: #ffffff;
-	}
+
 	.ts {
 		background-color: #7daeff;
 		color: #0d1c2f;
@@ -175,13 +161,8 @@
 		color: var(--slate-blue);
 	}
 
-	img {
-		margin-top: 1.25rem;
-		border-radius: 15px;
-		border: 3px solid var(--dusty-lavender);
-	}
-
 	video {
+		margin-top: 1.25rem;
 		border-radius: 15px;
 		border: 3px solid var(--dusty-lavender);
 	}
@@ -192,12 +173,6 @@
 	}
 	ul li {
 		margin-bottom: 0.5em;
-	}
-
-	a {
-		color: var(--tropical-cyan);
-		text-decoration: underline;
-		margin: 0;
 	}
 
 	@media (min-width: 600px) {

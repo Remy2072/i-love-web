@@ -4,11 +4,10 @@
 		<h1>Pokedex</h1>
 		<small>Hypersolid</small>
 	</div>
-	<img src="/img/pokedex.png" alt="" />
-
+	<img src="/img/pokedex.png" alt="Screenshot van Pokedex pagina" />
 	<h3>Bekjik hier</h3>
-	<a href="https://github.com/Remy2072/funda-favourites">Github</a>
-	<a href="https://remy-pokedex.vercel.app/en">Live omgeving</a>
+	<a href="https://github.com/Remy2072/pokedex" target="_blank">Github</a>
+	<a href="https://remy-pokedex.vercel.app/en" target="_blank">Live omgeving</a>
 	<h3>Tech-stack</h3>
 	<ul class="tech-stack">
 		<li class="tech-stack-list next">Next.js</li>
@@ -20,13 +19,13 @@
 	</ul>
 	<h3>Het project</h3>
 	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia dolor vitae ligula
-		vestibulum, vel vestibulum neque aliquet. Donec a libero lacus. Curabitur ornare volutpat
-		hendrerit. Aliquam malesuada nisi enim, eu bibendum turpis posuere id. Sed ornare hendrerit
-		lacus. Nam iaculis enim dui, at facilisis tortor convallis ut. Proin augue elit, tristique a
-		turpis id, volutpat tincidunt nunc. Integer purus risus, fringilla vitae sapien ut, accumsan
-		malesuada libero. Cras molestie aliquet nibh, ac fermentum velit tristique vel. Suspendisse sit
-		amet porta dolor. Praesent nec metus luctus, laoreet arcu in, volutpat elit.
+		Toen ik mijn stage bij Hypersolid begon, kreeg ik de opdracht om een Pokédex te bouwen. Het doel
+		was om vertrouwd te raken met Next.js en TypeScript. De Pokédex is een interactieve
+		webapplicatie waarmee gebruikers informatie kunnen opzoeken over verschillende Pokémon inclusief
+		afbeeldingen, types en statistieken. Hiervoor heb ik data opgehaald via de PokéAPI en deze
+		overzichtelijk weergegeven in de applicatie. Het was een leuke en leerzame opdracht die me hielp
+		om mijn vaardigheden in Next.js en TypeScript flink te verbeteren. Daarnaast heb ik zelf nog
+		extra functionaliteit toegevoegd: zo kun je ook de weaknesses van elke Pokémon bekijken!
 	</p>
 </div>
 
@@ -59,18 +58,8 @@
 		color: #ffffff;
 	}
 
-	.js {
-		background-color: #fff68f;
-		color: #333333;
-	}
-
 	.node {
 		background-color: #67b26f;
-		color: #ffffff;
-	}
-
-	.ejs {
-		background-color: #b08dff;
 		color: #ffffff;
 	}
 
@@ -79,14 +68,6 @@
 		color: #ffffff;
 	}
 
-	.react {
-		background-color: #80d8ff;
-		color: #0d1c2f;
-	}
-	.sveltekit {
-		background-color: #ff9373;
-		color: #ffffff;
-	}
 	.ts {
 		background-color: #7daeff;
 		color: #0d1c2f;

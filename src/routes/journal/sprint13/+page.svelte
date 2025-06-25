@@ -38,12 +38,12 @@
 	<h2>Repositories</h2>
 	<ul>
 		<li>
-			<a href="https://github.com/Remy2072/your-tribe-for-life-profile-card"
+			<a href="https://github.com/Remy2072/your-tribe-for-life-profile-card" target="_blank"
 				>Profile Card Repository</a
 			>
 		</li>
 		<li>
-			<a href="https://github.com/DamianR2004/your-tribe-for-life-squad-page"
+			<a href="https://github.com/DamianR2004/your-tribe-for-life-squad-page" target="_blank"
 				>Squad Page Repository</a
 			>
 		</li>
@@ -121,7 +121,7 @@
 		In deze workshop kregen we de basis uitgelegd van Figma en enkele handige sneltoetsen om sneller
 		te werken. Voor meer shortcuts kun je deze <a
 			href="https://help.figma.com/hc/en-us/articles/360040328653-Keyboard-shortcuts-in-Figma"
-			>site</a
+			target="_blank">site</a
 		> checken. Deze week heb ik me beziggehouden met mijn profielkaartje. Ik heb de basis setup geïnstalleerd
 		en een wireframe van de website gemaakt. We hadden afgesproken dat drie teamleden deze week aan hun
 		profielkaart zouden werken en de andere twee aan de squad page. Ik hielp mijn teamgenoten wanneer
@@ -132,7 +132,9 @@
 		Voor de API-koppeling maak je een <code>fetch-json.js</code> bestand in de lib-map en gebruik je
 		<code>+page.server.js</code>
 		om de data in te laden. Een voorbeeld van mijn profielkaart is te vinden op deze
-		<a href="https://profilecard-git-main-remys-projects-8b6e8689.vercel.app/">link</a>.
+		<a href="https://profilecard-git-main-remys-projects-8b6e8689.vercel.app/ " target="_blank"
+			>link</a
+		>.
 	</p>
 	<h2>Week 3 | 16 t/m 20 september</h2>
 	<h3>MoSCoW & Poker</h3>
@@ -173,7 +175,8 @@
 	</ul>
 	<p>
 		Bekijk de live versie van de squad page hier: <a
-			href="https://your-tribe-for-life-squad-page-nu.vercel.app/">Squad Page</a
+			href="https://your-tribe-for-life-squad-page-nu.vercel.app"
+			target="_blank">Squad Page</a
 		>.
 	</p>
 </div>

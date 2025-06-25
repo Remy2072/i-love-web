@@ -34,8 +34,8 @@
 	</ul>
 	<h2>Repositories</h2>
 	<ul>
-		<li><a href="https://github.com/fdnd-agency/fdnd">Release Candidate</a></li>
-		<li><a href="https://github.com/Remy2072/i-love-web">i-love-web</a></li>
+		<li><a href="https://github.com/fdnd-agency/fdnd" target="_blank">Release Candidate</a></li>
+		<li><a href="https://github.com/Remy2072/i-love-web" target="_blank">i-love-web</a></li>
 	</ul>
 
 	<h2>Week 1 | 06 t/m 10 januari</h2>
@@ -478,21 +478,21 @@
 	<h3>Bronnen</h3>
 	<ul>
 		<li>
-			<a href="https://en.wikipedia.org/wiki/Software_release_life_cycle"
+			<a href="https://en.wikipedia.org/wiki/Software_release_life_cycle" target="_blank"
 				>Software release life cycle
 			</a>
 		</li>
 		<li>
-			<a href="https://gsap.com">GSAB</a>
+			<a href="https://gsap.com" target="_blank">GSAB</a>
 		</li>
 		<li>
-			<a href="https://threejs-journey.com/">Three.js journey</a>
+			<a href="https://threejs-journey.com/" target="_blank">Three.js journey</a>
 		</li>
 		<li>
-			<a href="https://tympanus.net/codrops/">Cod Drops</a>
+			<a href="https://tympanus.net/codrops/" target="_blank">Cod Drops</a>
 		</li>
 		<li>
-			<a href="https://thebookofshaders.com/">The Book of Shaders</a>
+			<a href="https://thebookofshaders.com/" target="_blank">The Book of Shaders</a>
 		</li>
 	</ul>
 </div>
